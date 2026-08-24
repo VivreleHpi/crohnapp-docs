@@ -18,6 +18,27 @@ Non. Une installation récente doit se mettre à jour sans désinstallation. Ne 
 l'application et n'effacez jamais ses données avant d'avoir créé et vérifié une sauvegarde. Une très
 ancienne installation peut nécessiter une réinstallation seulement après sauvegarde et vérification.
 
+## Pourquoi deux versions différentes de CrohnApp peuvent-elles coexister sur mon appareil ?
+
+CrohnApp est enregistrée sur l'appareil pour fonctionner hors ligne, et chaque copie reste rattachée
+à l'adresse exacte par laquelle elle a été ouverte. Des copies distinctes apparaissent donc quand
+vous utilisez deux adresses différentes, deux navigateurs ou deux profils de navigateur, ou, selon la
+plateforme, deux installations isolées. Dans Chrome ou Chromium, sur un même profil et une même
+adresse, l'application installée et l'onglet partagent normalement le même carnet ; certaines
+plateformes, en revanche, isolent le stockage de l'application installée.
+
+Chacune garde son propre carnet : les informations saisies dans l'une n'apparaissent pas dans
+l'autre. Et une copie ouverte depuis une ancienne adresse peut rester sur une version ancienne, sans
+plus se mettre à jour.
+
+Pour le vérifier, comparez la version affichée dans **Profil** dans chaque fenêtre. Ouvrez toujours
+CrohnApp depuis `crohnapp.com` et remplacez les favoris qui pointent ailleurs, par exemple vers une
+adresse commençant par `www.`. Si une copie reste sur une version ancienne, créez d'abord une
+sauvegarde **depuis cette copie**, puis écrivez à [crohnapp@gmail.com](mailto:crohnapp@gmail.com)
+avant d'effacer quoi que ce soit.
+
+Voir le guide : [mettre à jour CrohnApp](guides/mise-a-jour-pwa.md).
+
 ## Comment protéger mes données avant une réinstallation ou un changement de téléphone ?
 
 Créez une sauvegarde clinique chiffrée depuis **Données et sauvegardes**. Si vous utilisez des photos,
