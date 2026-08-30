@@ -3,6 +3,9 @@
 Chaque risque identifié est associé à une mesure de réduction. Statut révisé au 13 août 2026,
 CrohnApp v1.1.0.
 
+> **Portée** : analyse réalisée sur la v1.1.0. L'application est aujourd'hui en v1.2.4 ;
+> la revérification de ce document est due.
+
 ## Risques techniques
 
 | Risque | Impact | Mesure de réduction | Statut |

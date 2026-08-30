@@ -1,8 +1,14 @@
 # Dossier conformité — CrohnApp
 
 Ce dossier documente la finalité, les données, les risques et les engagements de CrohnApp.
-Il est rédigé pour être lisible par un non-technicien et reflète le fonctionnement réel de
-l'application en v1.1.0, au 13 août 2026 :
+Il est rédigé pour être lisible par un non-technicien.
+
+L'application est aujourd'hui en **v1.2.4**. Les analyses détaillées de ce dossier — flux de
+données, risques, revue technique — ont été réalisées sur la v1.1.0, le 13 août 2026, et
+portent chacune leur date ; leur revérification pour la version courante est due.
+
+Les engagements ci-dessous ont en revanche été revérifiés le 30 août 2026 et restent exacts
+en v1.2.4 :
 
 - Application web installable, servie sous forme de fichiers statiques.
 - **Les données de santé restent sur l'appareil** : le carnet de suivi dans un coffre chiffré, les

@@ -3,6 +3,9 @@
 *Vérification du 13 août 2026, CrohnApp v1.1.0. À refaire avant toute version qui ajouterait un
 échange avec un serveur.*
 
+> **Portée** : analyse réalisée sur la v1.1.0. L'application est aujourd'hui en v1.2.4 ;
+> la revérification de ce document est due.
+
 La formulation publique autorisée est : « Les données sont enregistrées localement par défaut.
 L'utilisateur peut les consulter, les modifier, les exporter et les supprimer. » Les formulations
 absolues — « 100 % privé », « zéro risque », « conformité garantie » — restent interdites.

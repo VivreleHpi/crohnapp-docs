@@ -2,6 +2,9 @@
 
 *Analyse statique du 13 août 2026, portant sur CrohnApp v1.1.0.*
 
+> **Portée** : analyse réalisée sur la v1.1.0. L'application est aujourd'hui en v1.2.4 ;
+> la revérification de ce document est due.
+
 > **Ceci n'est pas un audit indépendant.** Ce document est une revue conduite en interne par
 > l'éditrice. Aucune société d'audit, aucun auditeur externe et aucun rapport signé ne sont
 > associés à ce travail. Un audit de sécurité externe reste à réaliser ; c'est une étape
