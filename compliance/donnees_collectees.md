@@ -1,9 +1,6 @@
 # Données traitées et stockage
 
-*État au 13 août 2026, CrohnApp v1.1.0.*
-
-> **Portée** : analyse réalisée sur la v1.1.0. L'application est aujourd'hui en v1.2.4 ;
-> la revérification de ce document est due.
+*Revérifié le 30 août 2026 sur CrohnApp v1.2.4.*
 
 Les informations ci-dessous sont saisies par l'utilisateur et restent sur son appareil. Elles ne
 sont pas transmises à l'éditrice. L'hébergeur sert les fichiers de l'application et traite les
@@ -22,6 +19,7 @@ requêtes de chargement habituelles, mais ne reçoit pas le contenu du carnet.
 | Photos cliniques | image, miniature, type, notes, date | Espace photos séparé, également chiffré | Chiffrée |
 | Identité locale | l'identifiant du profil sur cet appareil | Stockage simple du navigateur | Non clinique ; sert à retrouver le bon coffre |
 | Préférences | thème, langue, rappels, tutoriels vus | Stockage simple du navigateur | Non clinique |
+| Données de démonstration | saisies faites dans le profil démo | Coffre fictif séparé, mot de passe constant | Non protégée ; effacée à la sortie et au plus tard après 24 h |
 
 Le coffre est déverrouillé par le mot de passe du profil. Ce mot de passe n'est jamais enregistré
 et ne peut pas être réinitialisé à distance. Après un rechargement, un profil réel se reverrouille.
@@ -39,6 +37,24 @@ leurs miniatures et les informations qui les accompagnent sont chiffrées.
 - **Synthèse PDF et graphiques PNG** : produits sur l'appareil, puis téléchargés ou partagés si
   l'utilisateur le demande.
 - **Dépôt dans Mon espace santé** : manuel, réalisé par l'utilisateur depuis son propre compte.
+
+## Mode démonstration
+
+Un profil de démonstration permet d'essayer l'application sans créer de coffre personnel. Il est
+volontairement séparé du carnet réel et n'obéit pas aux mêmes règles :
+
+- L'écran affiche un avertissement explicite : n'y entrez pas de données de santé réelles.
+- Ce qui y est saisi vit dans un **coffre fictif**, distinct du coffre personnel, ouvert par un mot
+  de passe constant inscrit dans l'application. Ce coffre ne protège donc rien : c'est un décor,
+  pas un contrôle de confidentialité.
+- La session dure **24 heures au maximum**, avec un compte à rebours visible.
+- Le coffre fictif et les photos de démonstration sont effacés à la sortie de la démonstration, à
+  l'échéance des 24 heures, ou au premier chargement suivant.
+- Contrairement à un profil réel, la démonstration **se rouvre sans mot de passe** après un
+  rechargement, tant que la session n'a pas expiré : la saisie de l'évaluateur est conservée
+  pendant toute la durée.
+- La restauration d'une sauvegarde y est refusée, et le partage de la synthèse n'y est pas proposé.
+  L'export reste possible, pour montrer les formats.
 
 ## Ce qui n'existe pas
 
