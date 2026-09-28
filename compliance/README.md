@@ -16,7 +16,9 @@ en v1.2.4 :
 - Aucun compte serveur : le profil et son mot de passe sont locaux.
 - Aucune donnée de santé ne quitte l'appareil sans une action explicite de l'utilisateur
   (export, sauvegarde, PDF, partage).
-- Aucun outil de mesure d'audience ni traceur publicitaire.
+- Aucun traceur publicitaire. Depuis le 1er septembre 2026, une mesure d'audience agrégée
+  (Vercel Web Analytics) porte uniquement sur les pages publiques du site, jamais sur les pages
+  du carnet ni sur les données de santé : voir le [README](../README.md#fonctionnement-local-et-confidentialité).
 
 ## Contenu
 

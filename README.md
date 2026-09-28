@@ -78,7 +78,9 @@ Rédigé pour être lisible par un non-technicien, il reflète l'architecture r�
 - Aucun compte serveur requis. L'e-mail est un identifiant local sur l'appareil, jamais synchronisé.
 - Le mot de passe déverrouille un coffre local chiffré (AES-GCM-256, clé dérivée par PBKDF2-SHA-256). Après un rechargement, un profil réel se reverrouille : le mot de passe n'est jamais stocké.
 - Les photos, leurs miniatures et les informations qui les accompagnent sont chiffrées dans un espace séparé. Une sauvegarde des photos et une sauvegarde du carnet sont deux fichiers distincts.
-- Aucun outil d'analytics tiers ni traceur publicitaire (voir la revue technique ci-dessus).
+- **Mesure d'audience limitée aux pages publiques.** Sur le site de production `crohnapp.com`, Vercel Web Analytics compte les pages vues de l'accueil (`/`), de la connexion (`/auth`) et des pages d'information : aide, confidentialité, mentions légales, conditions d'utilisation, accessibilité, qualité et sécurité. Il s'agit de statistiques agrégées, sans cookie selon la documentation de Vercel. Les pages du carnet ne sont jamais mesurées, et aucune donnée de santé n'est transmise. Les signaux « Do Not Track » et « Global Privacy Control » du navigateur désactivent la mesure. Détail dans la [politique de confidentialité](https://crohnapp.com/privacy).
+- **Référencement Google.** Les pages publiques sont déclarées à Google Search (Google Search Console) pour apparaître dans les résultats de recherche. L'application ne charge aucun script Google.
+- Aucun traceur ni cookie publicitaire.
 
 ## Périmètre médical et réglementaire
 
