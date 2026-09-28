@@ -2,7 +2,7 @@
 
 *Analyse statique du 13 août 2026, portant sur CrohnApp v1.1.0.*
 
-> **Portée** : analyse réalisée sur la v1.1.0. L'application est aujourd'hui en v1.2.4 ;
+> **Portée** : analyse réalisée sur la v1.1.0. L'application est aujourd'hui en v1.2.5 ;
 > la revérification de ce document est due.
 
 > **Ceci n'est pas un audit indépendant.** Ce document est une revue conduite en interne par

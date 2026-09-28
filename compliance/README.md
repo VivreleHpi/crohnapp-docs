@@ -3,7 +3,7 @@
 Ce dossier documente la finalité, les données, les risques et les engagements de CrohnApp.
 Il est rédigé pour être lisible par un non-technicien.
 
-L'application est aujourd'hui en **v1.2.4**. Les analyses détaillées de ce dossier — flux de
+L'application est aujourd'hui en **v1.2.5**. Les analyses détaillées de ce dossier — flux de
 données, risques, revue technique — ont été réalisées sur la v1.1.0, le 13 août 2026, et
 portent chacune leur date ; leur revérification pour la version courante est due.
 

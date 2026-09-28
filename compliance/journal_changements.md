@@ -8,6 +8,14 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## v1.2.5 — 2026-09-29
+
+- Version produit portée à 1.2.5, consultable dans **Profil**.
+- Mise à jour de maintenance : plusieurs composants logiciels tiers utilisés par l'application ont
+  été actualisés vers leurs versions correctives.
+- Aucune nouvelle fonctionnalité. Le carnet, le coffre chiffré, les sauvegardes et le stockage des
+  données sur l'appareil sont inchangés.
+
 ## v1.2.4 — 2026-08-17
 
 - Version produit portée à 1.2.4, consultable dans **Profil**.
