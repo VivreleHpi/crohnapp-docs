@@ -42,13 +42,27 @@ par votre action explicite.
 
 Voir aussi : [flux de données documentés](../compliance/flux_donnees.md).
 
-## Les analyses et le score HBI posent-ils un diagnostic ?
+## Les analyses posent-elles un diagnostic ?
 
-Non. Ils résument les informations déclarées et servent de support à la consultation. Ils ne
-remplacent pas un professionnel de santé, ne prédisent pas une poussée et ne trient pas une urgence.
-En cas d'urgence, appelez le 15 ou le 112.
+Non. Elles comptent et tracent les informations déclarées et servent de support à la consultation.
+Elles ne remplacent pas un professionnel de santé, ne prédisent pas une poussée et ne trient pas une
+urgence. En cas d'urgence, appelez le 15 ou le 112.
 
-Voir aussi : [méthode et limites du HBI](../compliance/hbi_calcul.md).
+Les graphiques comptent les saisies par type de Bristol et par intensité ; ils n'affichent ni score
+ni moyenne. Un jour sans saisie reste vide : il n'est pas affiché comme un zéro.
+
+Voir aussi : [limites de l'application](../compliance/limites_dispositif_medical.md).
+
+## Pourquoi le score HBI est-il suspendu ?
+
+Depuis la v1.2.6, le calcul du score HBI et le « signal de suivi » sont suspendus, dans l'attente
+d'une relecture médicale et réglementaire. L'application n'affiche plus de score ni de repère, y
+compris dans la synthèse et dans le PDF.
+
+Vos scores déjà enregistrés sont conservés : ils restent dans le coffre et dans vos sauvegardes.
+Vos selles, symptômes et traitements ne sont pas concernés, et leurs comptes restent affichés.
+
+Voir aussi : [statut du calcul HBI](../compliance/hbi_calcul.md).
 
 ## Comment obtenir une image lisible d'un graphique ?
 

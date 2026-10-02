@@ -31,7 +31,7 @@ en v1.2.4 :
 | [politique_suppression_donnees.md](politique_suppression_donnees.md) | Sauvegarder, exporter et supprimer ses données |
 | [analyse_risque_securite.md](analyse_risque_securite.md) | Risques identifiés et mesures de réduction |
 | [sources_cliniques.md](sources_cliniques.md) | Références des scores et échelles utilisés |
-| [hbi_calcul.md](hbi_calcul.md) | Formule, source, seuils et version du calcul HBI |
+| [hbi_calcul.md](hbi_calcul.md) | Calcul HBI : statut (suspendu), formule, source et seuils |
 | [limites_dispositif_medical.md](limites_dispositif_medical.md) | Statut non-DM et frontières à ne pas franchir |
 | [preuves_ia_exigences.md](preuves_ia_exigences.md) | État des preuves, IA et exigences avant toute évolution |
 | [plan_validation_clinique.md](plan_validation_clinique.md) | Plan de validation terrain (beta) |

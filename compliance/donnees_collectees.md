@@ -14,7 +14,7 @@ requêtes de chargement habituelles, mais ne reçoit pas le contenu du carnet.
 | Selles | type Bristol, sang, mucus, date et heure, notes | Coffre local chiffré | Chiffrée |
 | Symptômes | nom, sévérité, date et heure, notes | Coffre local chiffré | Chiffrée |
 | Traitements | nom, dosage, fréquence, prises déclarées | Coffre local chiffré | Chiffrée |
-| Scores HBI | score, repère indicatif, date | Coffre local chiffré | Chiffrée |
+| Scores HBI enregistrés avant la v1.2.6 | score, repère indicatif, date | Coffre local chiffré | Chiffrée |
 | Rendez-vous | date, type, notes | Coffre local chiffré | Chiffrée |
 | Photos cliniques | image, miniature, type, notes, date | Espace photos séparé, également chiffré | Chiffrée |
 | Identité locale | l'identifiant du profil sur cet appareil | Stockage simple du navigateur | Non clinique ; sert à retrouver le bon coffre |

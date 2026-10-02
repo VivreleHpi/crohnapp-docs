@@ -8,6 +8,28 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## v1.2.6 — 2026-10-04
+
+- Version produit portée à 1.2.6, consultable dans **Profil**.
+- Le calcul du score HBI est suspendu, dans l'attente d'une relecture médicale et réglementaire.
+  L'application ne propose plus le calculateur et n'affiche plus de score, ni dans la synthèse ni
+  dans le PDF. Les scores déjà enregistrés sont conservés dans le coffre et dans les sauvegardes.
+- Le « signal de suivi » et les repères qui en dérivaient ne sont plus affichés.
+- L'échelle de Bristol est affichée sans commentaire ni mention d'une zone « normale ». Le type 4
+  est libellé « Lisse ».
+- Les analyses, la synthèse et le PDF comptent les saisies par type de Bristol et par intensité.
+  Ils n'affichent plus de moyenne de ces échelles. La synthèse indique le type le plus fréquent.
+- Une absence de saisie n'est plus affichée comme un zéro. Un jour ou une période sans saisie
+  porte la mention « aucune saisie » ou un tiret ; un zéro n'apparaît que lorsque des saisies
+  existent. Le PDF indique le nombre de saisies et le nombre de jours renseignés.
+- Le compte des symptômes d'intensité 3 ou 4 est libellé « saisies d'intensité 3 ou 4 ».
+- La synthèse s'ouvre à l'adresse `/synthese`. Les anciens liens y conduisent toujours.
+- Conditions d'utilisation : articles 3 et 5 mis à jour, en vigueur à compter du 4 octobre 2026.
+- Image de présentation mise à jour à partir d'une capture du profil de démonstration.
+- Aucune donnée n'est modifiée ni supprimée. Le coffre chiffré, les sauvegardes et le stockage des
+  données sur l'appareil sont inchangés.
+- La page d'aide et la FAQ expliquent la suspension.
+
 ## v1.2.5 — 2026-09-29
 
 - Version produit portée à 1.2.5, consultable dans **Profil**.

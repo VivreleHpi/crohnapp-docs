@@ -31,19 +31,21 @@ Le **code source vit dans un dépôt privé**. Ce dépôt public existe pour don
 
 - Journal quotidien : selles (échelle de Bristol), symptômes, traitements, photos optionnelles.
 - Suivi des prises déclarées et oublis explicitement déclarés — jamais déduits d'une absence de saisie.
-- Score HBI calculé à partir des données déclarées, présenté comme repère de suivi, pas un diagnostic.
+- Graphiques et comptes des données saisies : fréquence, intensité, prises renseignées.
 - Synthèse des données déclarées pour la consultation, exportable en PDF.
 - Rappels locaux (traitement, rendez-vous, résumé) affichés tant que l'application est ouverte ou active sur l'appareil. Le déclenchement application complètement fermée n'est pas garanti : l'export agenda `.ics` reste le moyen fiable d'être averti hors application.
 - Aucune donnée de santé ne quitte l'appareil sans action explicite de l'utilisateur (export CSV/JSON/PDF).
 
 Elle ne diagnostique pas, ne remplace pas un professionnel de santé et ne doit pas être utilisée pour trier une urgence.
 
+Depuis la v1.2.6, le calcul du score HBI et le « signal de suivi » sont suspendus, dans l'attente d'une relecture médicale et réglementaire. Les scores déjà enregistrés sont conservés. Voir [compliance/hbi_calcul.md](compliance/hbi_calcul.md).
+
 ## Appel à participation (bêta publique)
 
 Le projet cherche des retours pour progresser, de deux profils en particulier :
 
 - **Patients et aidants** : testez le parcours réel (saisie, planning de traitements, synthèse PDF) et signalez ce qui est confus, incorrect ou manquant. Le mode démo permet de tester sans saisir de données réelles.
-- **Professionnels de santé** : une relecture du contenu clinique (formule et seuils HBI, échelle de Bristol, libellés) par un médecin ou un(e) soignant(e) serait précieuse avant tout usage élargi — voir [compliance/plan_validation_clinique.md](compliance/plan_validation_clinique.md) et [compliance/sources_cliniques.md](compliance/sources_cliniques.md) pour l'état actuel des sources.
+- **Professionnels de santé** : une relecture du contenu clinique (échelle de Bristol, libellés, calcul du HBI aujourd'hui suspendu) par un médecin ou un(e) soignant(e) serait précieuse avant tout usage élargi — voir [compliance/plan_validation_clinique.md](compliance/plan_validation_clinique.md) et [compliance/sources_cliniques.md](compliance/sources_cliniques.md) pour l'état actuel des sources.
 
 Cette bêta n'est pas un dispositif médical certifié et ne remplace pas un avis médical. Pour participer ou remonter un retour : [crohnapp@gmail.com](mailto:crohnapp@gmail.com).
 
@@ -61,7 +63,7 @@ Rédigé pour être lisible par un non-technicien, il reflète l'architecture r�
 | [compliance/sources_cliniques.md](compliance/sources_cliniques.md) | Références des scores et échelles utilisés |
 | [compliance/limites_dispositif_medical.md](compliance/limites_dispositif_medical.md) | Statut non-DM et frontières à ne pas franchir |
 | [compliance/preuves_ia_exigences.md](compliance/preuves_ia_exigences.md) | État des preuves, IA et exigences avant toute évolution |
-| [compliance/hbi_calcul.md](compliance/hbi_calcul.md) | Formule, source, seuils et version du calcul HBI |
+| [compliance/hbi_calcul.md](compliance/hbi_calcul.md) | Calcul HBI : statut (suspendu), formule, source et seuils |
 | [compliance/flux_donnees.md](compliance/flux_donnees.md) | Vérification documentée des flux de données (« local-first ») |
 | [compliance/plan_validation_clinique.md](compliance/plan_validation_clinique.md) | Plan de validation terrain (beta) |
 | [compliance/journal_changements.md](compliance/journal_changements.md) | Journal des évolutions notables |
@@ -108,12 +110,14 @@ The **source code lives in a private repository**. This public repository exists
 
 It does not diagnose, replace a clinician, or triage emergencies.
 
+Since v1.2.6, the HBI score calculation and the "follow-up signal" are suspended, pending medical and regulatory review. Scores already recorded are kept.
+
 ## Call for participation (open beta)
 
 The project is looking for feedback from two groups in particular:
 
 - **Patients and caregivers**: try the real journey (logging, medication schedule, PDF summary) and report anything confusing, incorrect or missing. Demo mode lets you try it without entering real data.
-- **Healthcare professionals**: a review of the clinical content (HBI formula and thresholds, Bristol scale, wording) by a clinician would be valuable before any wider use — see [compliance/plan_validation_clinique.md](compliance/plan_validation_clinique.md) and [compliance/sources_cliniques.md](compliance/sources_cliniques.md) for the current state of sources.
+- **Healthcare professionals**: a review of the clinical content (Bristol scale, wording, and the HBI calculation, currently suspended) by a clinician would be valuable before any wider use — see [compliance/plan_validation_clinique.md](compliance/plan_validation_clinique.md) and [compliance/sources_cliniques.md](compliance/sources_cliniques.md) for the current state of sources.
 
 This beta is not a certified medical device and does not replace medical advice.
 

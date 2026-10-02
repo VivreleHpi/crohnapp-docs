@@ -4,13 +4,18 @@
 
 CrohnApp est un **carnet de suivi personnel**, non revendiqué comme dispositif médical.
 Sa qualification réglementaire doit être confirmée par un conseil juridique et réglementaire avant
-toute mise sur le marché. Ses signaux de suivi ne sont ni validés cliniquement ni destinés à un
-diagnostic ou à une décision thérapeutique.
+toute mise sur le marché.
+
+Depuis la v1.2.6 (4 octobre 2026), le calcul du score HBI, le signal de suivi et les commentaires
+sur l'échelle de Bristol sont suspendus dans l'attente d'une relecture médicale et réglementaire.
+Aucun d'eux n'a été validé cliniquement.
 
 ## Fonctions actuelles compatibles avec ce statut
 
-- Journal de selles, symptômes, traitements et scores déclarés.
-- Statistiques descriptives (moyennes, fréquences, tendances affichées avec leurs signaux).
+- Journal de selles, symptômes et traitements.
+- Statistiques descriptives (comptes, répartitions par type et par intensité, graphiques). Aucune
+  moyenne de l'échelle de Bristol ou de l'intensité n'est affichée, et un jour sans saisie n'est
+  jamais affiché comme un zéro.
 - Rapport PDF de synthèse « données déclarées par le patient » avec score de qualité de saisie.
 - Exports contrôlés par l'utilisateur.
 
@@ -29,7 +34,9 @@ documentation :
 ## Règles de rédaction dans l'application
 
 - Toute synthèse est formulée comme un **constat de données déclarées**, jamais comme un avis.
-- Les signaux sont accompagnés de « à discuter avec votre médecin ».
+- Aucun score, signal ni commentaire de norme n'est affiché tant que les fonctions correspondantes
+  sont suspendues. Les comptes sont restitués tels que saisis, sans signal ni couleur dérivée d'un
+  seuil.
 - Le disclaimer médical est permanent et le PDF rappelle les numéros d'urgence (15 / 112).
 - La France est le seul pays activé, et l'application n'est proposée qu'en français. Toute ouverture
   d'un nouveau pays est bloquée jusqu'à la revue juridique et clinique définie dans
