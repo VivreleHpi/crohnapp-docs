@@ -40,7 +40,9 @@ photos ne remplace pas celle du carnet, et inversement.
 
 ## Le cas du profil de démonstration
 
-La démonstration ne suit pas ces règles, parce qu'elle ne contient pas vos données :
+Depuis la v1.2.7, le profil de démonstration n'est plus proposé sur le site. Il existe toujours
+dans l'application, pour les captures de cette documentation. Il ne suit pas ces règles, parce
+qu'il ne contient pas vos données :
 
 - Son contenu vit dans un coffre fictif séparé, ouvert par un mot de passe constant inscrit dans
   l'application. Il ne protège rien et n'a pas vocation à recevoir de données réelles.

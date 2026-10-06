@@ -26,6 +26,14 @@ des endroits distincts.
 
 Voir le guide : [sauvegarder et restaurer](guides/sauvegarder-restaurer.md).
 
+## Comment retrouver mon carnet sur un autre appareil ?
+
+Un carnet est enregistré sur l'appareil où il a été créé. Il ne se retrouve pas en saisissant le
+même e-mail ailleurs : CrohnApp n'en garde aucune copie. Créez un carnet sur le nouvel appareil,
+puis importez la sauvegarde faite sur l'ancien depuis **Données & sauvegardes**.
+
+Voir le guide : [sauvegarder et restaurer](guides/sauvegarder-restaurer.md).
+
 ## Un mot de passe oublié peut-il être récupéré ?
 
 Non. Le coffre est chiffré uniquement sur l'appareil. CrohnApp ne reçoit pas le mot de passe et ne

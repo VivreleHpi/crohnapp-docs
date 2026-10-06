@@ -1,16 +1,17 @@
-# Statut dispositif médical et frontières à ne pas franchir
+# Statut réglementaire et frontières à ne pas franchir
 
 ## Statut actuel
 
-CrohnApp est un **carnet de suivi personnel**, non revendiqué comme dispositif médical.
-Sa qualification réglementaire doit être confirmée par un conseil juridique et réglementaire avant
-toute mise sur le marché.
+CrohnApp est actuellement présenté comme un **carnet personnel descriptif**, non revendiqué comme
+dispositif médical. Sa qualification réglementaire fait l'objet d'un cadrage spécifique : cette
+documentation ne la tranche pas. CrohnApp n'est pas destiné à poser un diagnostic ni à recommander
+un traitement.
 
 Depuis la v1.2.6 (4 octobre 2026), le calcul du score HBI, le signal de suivi et les commentaires
 sur l'échelle de Bristol sont suspendus dans l'attente d'une relecture médicale et réglementaire.
 Aucun d'eux n'a été validé cliniquement.
 
-## Fonctions actuelles compatibles avec ce statut
+## Fonctions actuelles
 
 - Journal de selles, symptômes et traitements.
 - Statistiques descriptives (comptes, répartitions par type et par intensité, graphiques). Aucune
@@ -19,7 +20,7 @@ Aucun d'eux n'a été validé cliniquement.
 - Rapport PDF de synthèse « données déclarées par le patient » avec score de qualité de saisie.
 - Exports contrôlés par l'utilisateur.
 
-## Fonctions qui feraient basculer vers le statut de dispositif médical
+## Fonctions à ne pas ajouter sans analyse réglementaire
 
 À ne PAS implémenter sans analyse réglementaire dédiée. La qualification et la classe éventuelles
 dépendraient de la destination revendiquée et ne peuvent pas être déterminées par cette seule

@@ -8,6 +8,34 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## v1.2.7 — 2026-10-06
+
+- Version produit portée à 1.2.7, consultable dans **Profil**.
+- Page d'accueil simplifiée : un message, un accès au carnet, trois usages et un aperçu réalisé
+  avec des données fictives.
+- Le bouton d'accès dit ce qu'il fait : « Accéder à la bêta » sans carnet sur l'appareil,
+  « Ouvrir mon carnet » s'il y en a un, « Ouvrir un carnet » s'il y en a plusieurs. L'écran
+  d'accès propose le carnet présent sur l'appareil ; s'il y en a plusieurs, il demande lequel
+  ouvrir.
+- Les pages publiques ont leur propre en-tête : Fonctionnement, Aide et accès au carnet.
+- Le profil de démonstration n'est plus proposé sur le site.
+- Sur mobile, la barre de navigation du bas est allégée. Au clavier, l'élément sélectionné ne
+  passe plus sous l'en-tête ni sous la barre du bas.
+- Page d'aide et FAQ : nouvelle question « Comment retrouver mon carnet sur un autre appareil ? ».
+  La page d'aide rappelle les numéros d'urgence.
+- Page **Qualité & sécurité** et résumé des conditions d'utilisation : CrohnApp y est présenté
+  comme un carnet personnel descriptif, dont la qualification réglementaire fait l'objet d'un
+  cadrage spécifique. Conditions d'utilisation en vigueur à compter du 6 octobre 2026.
+- Politique de confidentialité mise à jour le 6 octobre 2026 : elle précise que le calcul du
+  score HBI est suspendu et que les scores déjà enregistrés sont conservés, et décrit les liens
+  vers des services tiers.
+- La page d'accueil propose un questionnaire facultatif (Google Forms), les pages Facebook et
+  TikTok de CrohnApp et un contact professionnel. Ces liens s'ouvrent hors de l'application ;
+  aucune donnée du carnet ne leur est transmise.
+- Image de présentation mise à jour, avec la mention « Données fictives ».
+- Aucune donnée n'est modifiée ni supprimée. Le coffre chiffré, les sauvegardes et le stockage des
+  données sur l'appareil sont inchangés.
+
 ## v1.2.6 — 2026-10-04
 
 - Version produit portée à 1.2.6, consultable dans **Profil**.

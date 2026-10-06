@@ -40,8 +40,9 @@ leurs miniatures et les informations qui les accompagnent sont chiffrées.
 
 ## Mode démonstration
 
-Un profil de démonstration permet d'essayer l'application sans créer de coffre personnel. Il est
-volontairement séparé du carnet réel et n'obéit pas aux mêmes règles :
+L'application contient un profil de démonstration, aux données entièrement fictives. Depuis la
+v1.2.7, il n'est plus proposé sur le site : il sert à produire les captures de cette documentation.
+Il est volontairement séparé du carnet réel et n'obéit pas aux mêmes règles :
 
 - L'écran affiche un avertissement explicite : n'y entrez pas de données de santé réelles.
 - Ce qui y est saisi vit dans un **coffre fictif**, distinct du coffre personnel, ouvert par un mot

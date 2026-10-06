@@ -2,13 +2,13 @@
 
 **Application en ligne : [https://crohnapp.com](https://crohnapp.com)**
 
-![Tour produit CrohnApp — captures réelles du mode démo (ordinateur)](docs/assets/tutorial-desktop.gif)
+![Tour produit CrohnApp — captures réelles sur un profil fictif (ordinateur)](docs/assets/tutorial-desktop.gif)
 
-> **Statut : démonstration publique local-first** — pas un dispositif médical certifié.
+> **Statut : bêta publique local-first.** CrohnApp est actuellement présenté comme un carnet personnel descriptif. Sa qualification réglementaire fait l'objet d'un cadrage spécifique.
 
 ## Tutoriel — comment ça marche
 
-Captures réelles du mode démo (données fictives). Depuis [crohnapp.com](https://crohnapp.com), cliquez sur **« Essayer avec un profil démo »** : tableau de bord, selles (Bristol), symptômes, traitements, analyses, synthèse PDF et exports/sauvegardes chiffrées. La saisie est possible et conservée pendant la session, puis effacée à la sortie. La restauration d'une sauvegarde, elle, demande un carnet personnel.
+Captures réelles de l'application, réalisées sur un profil fictif (données fictives) : tableau de bord, selles (Bristol), symptômes, traitements, analyses, synthèse PDF et exports/sauvegardes chiffrées. Depuis la v1.2.7, ce profil fictif n'est plus proposé sur le site : pour utiliser CrohnApp, créez votre carnet depuis [crohnapp.com](https://crohnapp.com).
 
 <img src="docs/assets/tutorial-mobile.gif" alt="Tutoriel CrohnApp sur mobile" width="320" />
 
@@ -19,7 +19,7 @@ Captures réelles du mode démo (données fictives). Depuis [crohnapp.com](https
 - [Créer et restaurer une sauvegarde chiffrée](docs/guides/sauvegarder-restaurer.md)
 - [Exporter un graphique d'analyse en PNG](docs/guides/exporter-analyses-png.md)
 
-Ces guides utilisent uniquement des données fictives. Ils sont capturés sur le profil démo, à
+Ces guides utilisent uniquement des données fictives. Ils sont capturés sur un profil fictif, à
 l'exception de la restauration d'une sauvegarde, qui demande un carnet personnel. Une procédure
 écrite reste présente sous chaque GIF pour l'accessibilité et pour les connexions lentes.
 
@@ -44,10 +44,10 @@ Depuis la v1.2.6, le calcul du score HBI et le « signal de suivi » sont suspen
 
 Le projet cherche des retours pour progresser, de deux profils en particulier :
 
-- **Patients et aidants** : testez le parcours réel (saisie, planning de traitements, synthèse PDF) et signalez ce qui est confus, incorrect ou manquant. Le mode démo permet de tester sans saisir de données réelles.
+- **Patients et aidants** : testez le parcours réel (saisie, planning de traitements, synthèse PDF) et signalez ce qui est confus, incorrect ou manquant.
 - **Professionnels de santé** : une relecture du contenu clinique (échelle de Bristol, libellés, calcul du HBI aujourd'hui suspendu) par un médecin ou un(e) soignant(e) serait précieuse avant tout usage élargi — voir [compliance/plan_validation_clinique.md](compliance/plan_validation_clinique.md) et [compliance/sources_cliniques.md](compliance/sources_cliniques.md) pour l'état actuel des sources.
 
-Cette bêta n'est pas un dispositif médical certifié et ne remplace pas un avis médical. Pour participer ou remonter un retour : [crohnapp@gmail.com](mailto:crohnapp@gmail.com).
+CrohnApp est actuellement présenté comme un carnet personnel descriptif. Sa qualification réglementaire fait l'objet d'un cadrage spécifique. CrohnApp n'est pas destiné à poser un diagnostic ni à recommander un traitement, et ne remplace pas un avis médical. Pour participer ou remonter un retour : [crohnapp@gmail.com](mailto:crohnapp@gmail.com).
 
 ## Dossier conformité
 
@@ -61,7 +61,7 @@ Rédigé pour être lisible par un non-technicien, il reflète l'architecture r�
 | [compliance/politique_suppression_donnees.md](compliance/politique_suppression_donnees.md) | Comment supprimer / exporter ses données |
 | [compliance/analyse_risque_securite.md](compliance/analyse_risque_securite.md) | Risques identifiés et mesures de réduction |
 | [compliance/sources_cliniques.md](compliance/sources_cliniques.md) | Références des scores et échelles utilisés |
-| [compliance/limites_dispositif_medical.md](compliance/limites_dispositif_medical.md) | Statut non-DM et frontières à ne pas franchir |
+| [compliance/limites_dispositif_medical.md](compliance/limites_dispositif_medical.md) | Statut réglementaire et frontières à ne pas franchir |
 | [compliance/preuves_ia_exigences.md](compliance/preuves_ia_exigences.md) | État des preuves, IA et exigences avant toute évolution |
 | [compliance/hbi_calcul.md](compliance/hbi_calcul.md) | Calcul HBI : statut (suspendu), formule, source et seuils |
 | [compliance/flux_donnees.md](compliance/flux_donnees.md) | Vérification documentée des flux de données (« local-first ») |
@@ -88,7 +88,7 @@ Rédigé pour être lisible par un non-technicien, il reflète l'architecture r�
 
 CrohnApp est une **bêta publique**, ouverte à l'essai et aux retours d'usage. Toute expérimentation structurée avec des patients ou des professionnels de santé est conduite séparément, sous forme de pilote encadré défini dans [compliance/plan_validation_clinique.md](compliance/plan_validation_clinique.md).
 
-CrohnApp ne revendique aujourd'hui aucune certification médicale, qualification réglementaire, certification d'hébergeur de données de santé, ni validation institutionnelle. Ce n'est ni un dispositif médical, ni un service d'urgence, ni un outil de diagnostic. Ces exigences seront réévaluées si l'architecture ou la destination d'usage évoluent.
+CrohnApp ne revendique aujourd'hui aucune certification médicale, qualification réglementaire, certification d'hébergeur de données de santé, ni validation institutionnelle. Sa qualification réglementaire fait l'objet d'un cadrage spécifique. Ce n'est ni un service d'urgence, ni un outil de diagnostic. Ces exigences seront réévaluées si l'architecture ou la destination d'usage évoluent.
 
 ## Hors périmètre actuel
 
@@ -102,7 +102,7 @@ Pour toute question, retour de participation ou demande d'accès en lecture au c
 
 ## English summary
 
-> **Status: public local-first demo** — not a certified medical device.
+> **Status: public local-first beta.** CrohnApp is currently presented as a descriptive personal logbook. Its regulatory qualification is being specifically assessed.
 
 This repository contains only the **documentation** for CrohnApp, a React/TypeScript PWA that helps people living with Crohn's disease track symptoms, stool logs and medication, and prepare better conversations with their care team.
 
@@ -116,10 +116,10 @@ Since v1.2.6, the HBI score calculation and the "follow-up signal" are suspended
 
 The project is looking for feedback from two groups in particular:
 
-- **Patients and caregivers**: try the real journey (logging, medication schedule, PDF summary) and report anything confusing, incorrect or missing. Demo mode lets you try it without entering real data.
+- **Patients and caregivers**: try the real journey (logging, medication schedule, PDF summary) and report anything confusing, incorrect or missing.
 - **Healthcare professionals**: a review of the clinical content (Bristol scale, wording, and the HBI calculation, currently suspended) by a clinician would be valuable before any wider use — see [compliance/plan_validation_clinique.md](compliance/plan_validation_clinique.md) and [compliance/sources_cliniques.md](compliance/sources_cliniques.md) for the current state of sources.
 
-This beta is not a certified medical device and does not replace medical advice.
+CrohnApp is not intended to diagnose or to recommend a treatment, and does not replace medical advice.
 
 ## Contact
 

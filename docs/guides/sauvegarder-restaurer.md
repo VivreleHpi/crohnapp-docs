@@ -19,8 +19,8 @@ CrohnApp ne connaît pas ces mots de passe et ne peut pas les réinitialiser.
 
 <img src="../assets/guides/mobile/restauration-chiffree-mobile.gif" alt="Restauration d'une sauvegarde clinique chiffrée dans CrohnApp sur mobile" width="360" />
 
-La restauration demande un carnet personnel : le profil démo n'accepte pas l'import d'une
-sauvegarde. Créez votre carnet avant de suivre ces étapes.
+La restauration se fait dans un carnet personnel. Sur un nouvel appareil, créez d'abord votre
+carnet, puis suivez ces étapes.
 
 1. Ouvrez **Importer une sauvegarde**.
 2. Saisissez le mot de passe avant de choisir le fichier.
