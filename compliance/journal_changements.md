@@ -8,6 +8,33 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## v1.3.0 — 2026-10-30
+
+- Version produit portée à 1.3.0, consultable dans **Profil**.
+- Nouvelle page d'accueil : captures réelles de l'application réalisées avec des données fictives,
+  histoire du projet, explication du stockage local et lien vers la page d'information de
+  l'Assurance Maladie (ameli.fr) consacrée à la maladie de Crohn.
+- À la première ouverture, CrohnApp prépare le stockage des carnets sur l'appareil, sans recopier
+  ni effacer de données. Si une fenêtre d'une version précédente est ouverte, l'application demande
+  de la fermer et attend.
+- La création d'un carnet enregistre le carnet et son coffre chiffré ensemble.
+- Des données qui ne peuvent pas être reliées avec certitude à un carnet sont conservées et
+  signalées, sans bloquer l'accès aux autres carnets.
+- Mise à jour de l'application installée : seule la fenêtre qui la demande se recharge ; si
+  d'autres fenêtres de CrohnApp sont ouvertes, la mise à jour attend leur fermeture.
+- Traitements : chaque action est enregistrée en une seule écriture, et l'historique des prises
+  n'est jamais remplacé.
+- L'import d'une sauvegarde refuse les fichiers qui dépassent les limites prévues.
+- L'avis « Application prête hors ligne » n'efface plus une confirmation d'enregistrement. Le
+  bandeau « Mode hors ligne » est centré et peut être masqué.
+- Messages plus clairs lorsque le stockage de l'appareil est plein ou refusé.
+- Mises à jour de sécurité de composants tiers.
+- Page d'aide et FAQ : la mise à jour attend la fermeture des autres fenêtres.
+- Politique de confidentialité mise à jour le 26 octobre 2026 : l'article 5 mentionne le lien vers
+  ameli.fr et précise que le navigateur transmet des informations techniques au site consulté.
+- Aucune donnée de santé n'est modifiée ni supprimée. Les sauvegardes des versions précédentes se
+  restaurent toujours.
+
 ## v1.2.7 — 2026-10-06
 
 - Version produit portée à 1.2.7, consultable dans **Profil**.

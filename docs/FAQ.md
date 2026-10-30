@@ -7,8 +7,10 @@ guide lié sous chaque question. Vous pouvez aussi ouvrir directement la page
 ## Comment mettre l'application à jour sur Android ?
 
 Fermez complètement CrohnApp et les onglets `crohnapp.com`, puis rouvrez l'application avec Internet
-actif. Si l'avis « Mise à jour disponible » apparaît, touchez **Rafraîchir**. La version active est
-visible dans **Profil**.
+actif. Si l'avis « Mise à jour disponible » apparaît, touchez **Rafraîchir** : si d'autres fenêtres
+de CrohnApp sont ouvertes, la mise à jour attend leur fermeture, sans les recharger. Une ancienne
+fenêtre restée ouverte peut ensuite afficher une erreur : fermez-la, votre carnet s'ouvre dans la
+nouvelle version. La version active est visible dans **Profil**.
 
 Voir le guide : [mettre à jour CrohnApp](guides/mise-a-jour-pwa.md).
 
