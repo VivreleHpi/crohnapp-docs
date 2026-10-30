@@ -8,7 +8,7 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
-## v1.3.2 — AAAA-MM-JJ
+## v1.3.2 — 2026-10-30
 
 - Version produit portée à 1.3.2, consultable dans **Profil**.
 - L'avis « Certains carnets à vérifier » n'est plus affiché en permanence. Replié, il disparaît
