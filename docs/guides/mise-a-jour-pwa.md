@@ -36,10 +36,11 @@ le même mot de passe.
 
 ## Si un carnet demande une vérification
 
-Si l'avis « Certains carnets demandent une vérification » s'affiche, vos autres carnets restent
-accessibles et rien n'a été effacé. Conservez ce navigateur et vos sauvegardes chiffrées, n'effacez
-pas les données du site et écrivez à [crohnapp@gmail.com](mailto:crohnapp@gmail.com), sans envoyer
-votre mot de passe ni vos données de santé.
+Si l'avis « Certains carnets à vérifier » s'affiche (« Certains carnets demandent une
+vérification » en version 1.3.0), vos autres carnets restent accessibles et rien n'a été effacé.
+Conservez ce navigateur et vos sauvegardes chiffrées, et n'effacez pas les données du site. La
+[question dédiée de la FAQ](../FAQ.md#pourquoi-certains-carnets-demandent-ils-une-vérification-)
+explique la situation et comment la signaler.
 
 Les installations très anciennes peuvent avoir été créées avant la correction du mécanisme de mise
 à jour. Si l'application reste bloquée, créez d'abord les sauvegardes clinique et photos chiffrées,

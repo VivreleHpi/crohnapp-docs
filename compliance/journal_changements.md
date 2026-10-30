@@ -8,6 +8,18 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## v1.3.1 — AAAA-MM-JJ
+
+- Version produit portée à 1.3.1, consultable dans **Profil**.
+- L'avis « Certains carnets à vérifier » s'affiche sous l'en-tête de l'écran d'accès et des écrans
+  du carnet, sans recouvrir le logo, le menu ni les boutons de navigation. Il est plus compact,
+  lisible en mode sombre, et ses explications se déplient avec « Comprendre ». Il ne propose aucune
+  action sur les données. Les pages publiques ne l'affichent plus.
+- Page d'aide et FAQ : nouvelle question « Pourquoi certains carnets demandent-ils une
+  vérification ? ».
+- Aucune donnée n'est modifiée ni supprimée. Le stockage des carnets, le coffre chiffré et les
+  sauvegardes sont inchangés.
+
 ## v1.3.0 — 2026-10-30
 
 - Version produit portée à 1.3.0, consultable dans **Profil**.

@@ -36,6 +36,24 @@ puis importez la sauvegarde faite sur l'ancien depuis **Données & sauvegardes**
 
 Voir le guide : [sauvegarder et restaurer](guides/sauvegarder-restaurer.md).
 
+## Pourquoi certains carnets demandent-ils une vérification ?
+
+Des données enregistrées par une ancienne version de CrohnApp, ou lors d'une création de carnet
+interrompue, peuvent ne plus être reliées avec certitude à un carnet. Plutôt que de risquer de les
+attribuer au mauvais carnet, CrohnApp les laisse de côté et vous prévient par l'avis « Certains
+carnets à vérifier », sur l'écran d'accès et dans le carnet.
+
+- Les carnets correctement identifiés restent accessibles normalement.
+- Les données concernées sont conservées sur l'appareil, mais leur accès ou leur récupération n'est
+  pas garanti.
+- Conservez ce navigateur, ses données de navigation et vos sauvegardes. Ne désinstallez pas
+  l'application et n'effacez pas le stockage du site pour tenter de résoudre le problème : effacer
+  le stockage du site supprime définitivement tout ce qu'il contient, carnets compris.
+- Vous pouvez signaler la situation à [crohnapp@gmail.com](mailto:crohnapp@gmail.com) pour obtenir
+  des indications. N'envoyez jamais votre mot de passe ni vos données de santé.
+
+Voir aussi : [Aide et FAQ de CrohnApp](https://crohnapp.com/help#carnets-a-verifier).
+
 ## Un mot de passe oublié peut-il être récupéré ?
 
 Non. Le coffre est chiffré uniquement sur l'appareil. CrohnApp ne reçoit pas le mot de passe et ne
