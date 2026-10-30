@@ -8,6 +8,18 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## v1.3.2 — AAAA-MM-JJ
+
+- Version produit portée à 1.3.2, consultable dans **Profil**.
+- L'avis « Certains carnets à vérifier » n'est plus affiché en permanence. Replié, il disparaît
+  après 15 secondes ; le délai est suspendu tant que ses explications sont ouvertes. Une croix
+  permet de le masquer. Une fois masqué, il ne revient pas pendant la session en cours.
+- Tant que la situation existe, **Profil** l'indique discrètement. On peut y revoir
+  l'avertissement et lire le détail des éléments concernés, sans rien modifier. Sans carnet
+  ouvert, l'écran d'accès garde un rappel.
+- Aucune donnée n'est modifiée ni supprimée. La détection, le stockage des carnets, le coffre
+  chiffré et les sauvegardes sont inchangés.
+
 ## v1.3.1 — 2026-10-30
 
 - Version produit portée à 1.3.1, consultable dans **Profil**.
