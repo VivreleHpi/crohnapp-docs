@@ -40,8 +40,12 @@ Voir le guide : [sauvegarder et restaurer](guides/sauvegarder-restaurer.md).
 
 Des données enregistrées par une ancienne version de CrohnApp, ou lors d'une création de carnet
 interrompue, peuvent ne plus être reliées avec certitude à un carnet. Plutôt que de risquer de les
-attribuer au mauvais carnet, CrohnApp les laisse de côté et vous prévient par l'avis « Certains
-carnets à vérifier », sur l'écran d'accès et dans le carnet.
+attribuer au mauvais carnet, CrohnApp les laisse de côté : aucun carnet n'est choisi à votre place,
+et rien n'est supprimé.
+
+CrohnApp vous prévient par un bref avertissement, « Certains carnets à vérifier », qui disparaît de
+lui-même ou d'un geste sur la croix. Une ligne discrète, « Des données anciennes sont à vérifier »,
+reste ensuite affichée dans **Profil** tant que la situation existe.
 
 - Les carnets correctement identifiés restent accessibles normalement.
 - Les données concernées sont conservées sur l'appareil, mais leur accès ou leur récupération n'est
@@ -51,6 +55,10 @@ carnets à vérifier », sur l'écran d'accès et dans le carnet.
   le stockage du site supprime définitivement tout ce qu'il contient, carnets compris.
 - Vous pouvez signaler la situation à [crohnapp@gmail.com](mailto:crohnapp@gmail.com) pour obtenir
   des indications. N'envoyez jamais votre mot de passe ni vos données de santé.
+
+La vérification se fait uniquement sur votre appareil. Le lien « Comprendre cet avertissement » ouvre
+cette page à une adresse fixe : rien de votre carnet n'y est transmis, ni l'adresse de la page
+CrohnApp d'où vous venez.
 
 Voir aussi : [Aide et FAQ de CrohnApp](https://crohnapp.com/help#carnets-a-verifier).
 

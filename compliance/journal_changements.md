@@ -8,6 +8,19 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## v1.3.3 — AAAA-MM-JJ
+
+- Version produit portée à 1.3.3, consultable dans **Profil**.
+- L'avertissement « Certains carnets à vérifier » est plus bref : un résumé, la consigne de
+  conserver ce navigateur et les sauvegardes, et un seul lien, « Comprendre cet avertissement »,
+  vers la FAQ publique. Il reste temporaire et peut être fermé.
+- **Profil** n'affiche plus qu'une ligne discrète, « Des données anciennes sont à vérifier », avec ce
+  même lien. Les détails techniques ne sont plus affichés dans l'application.
+- FAQ : la question « Pourquoi certains carnets demandent-ils une vérification ? » décrit
+  l'avertissement et la ligne de Profil.
+- Aucune donnée n'est modifiée ni supprimée. La détection, le stockage des carnets, le coffre
+  chiffré et les sauvegardes sont inchangés.
+
 ## v1.3.2 — 2026-10-30
 
 - Version produit portée à 1.3.2, consultable dans **Profil**.
