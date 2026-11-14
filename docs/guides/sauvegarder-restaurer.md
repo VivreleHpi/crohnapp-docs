@@ -7,7 +7,7 @@ changement de téléphone, une réinstallation exceptionnelle ou une opération 
 
 <img src="../assets/guides/mobile/sauvegarde-chiffree-mobile.gif" alt="Création d'une sauvegarde clinique chiffrée dans CrohnApp sur mobile" width="360" />
 
-1. Ouvrez **Données & export**, puis **Exporter mes données**.
+1. Ouvrez **Données & Sauvegardes**, puis **Exporter mes données**.
 2. Saisissez un mot de passe dédié d'au moins 12 caractères.
 3. Touchez **Sauvegarde chiffrée** et confirmez exactement le même mot de passe.
 4. Conservez le fichier et son mot de passe dans deux endroits séparés.

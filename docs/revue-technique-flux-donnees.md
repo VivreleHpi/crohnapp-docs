@@ -1,12 +1,15 @@
 # Revue technique interne des flux de données — CrohnApp
 
-*Analyse statique du 13 août 2026, portant sur CrohnApp v1.1.0.*
+*Analyse initiale du 13 août 2026 sur v1.1.0 ; relecture interne mise à jour le 14 novembre 2026
+pour CrohnApp v1.3.4.*
 
-> **Portée** : analyse réalisée sur la v1.1.0. L'application est aujourd'hui en v1.2.5 ;
-> la revérification de ce document est due.
+La relecture porte sur les chemins de stockage, d'export et de mesure d'audience du code de cette
+version. Un contrôle du chargement de l'accueil en production confirme aussi la présence du
+script de mesure d'audience. Il ne constitue pas une analyse exhaustive du trafic de tous les
+parcours ni un examen de données de santé réelles.
 
-> **Ceci n'est pas un audit indépendant.** Ce document est une revue conduite en interne par
-> l'éditrice. Aucune société d'audit, aucun auditeur externe et aucun rapport signé ne sont
+> **Ceci n'est pas un audit indépendant.** Ce document est une revue interne réalisée pour
+> le projet. Aucune société d'audit, aucun auditeur externe et aucun rapport signé ne sont
 > associés à ce travail. Un audit de sécurité externe reste à réaliser ; c'est une étape
 > identifiée, pas une case cochée.
 
@@ -26,17 +29,19 @@ peut être accordée sur demande motivée à [crohnapp@gmail.com](mailto:crohnap
 
 | Sujet | Constat |
 | --- | --- |
-| Mesure d'audience, publicité, profilage | Aucun outil de ce type n'a été trouvé. |
+| Mesure d'audience | Vercel Web Analytics est prévu et chargé sur le domaine de production pour une liste de pages publiques autorisées. Aucun suivi des actions ou du contenu du carnet n'est prévu. |
+| Publicité et profilage clinique | Aucun cookie publicitaire, rejeu de session ou événement clinique personnalisé intégré à cette mesure. |
 | Rapport d'erreur automatique | Aucun service de ce type n'est utilisé. |
-| Ressources chargées depuis un autre site | Aucune. Les polices utilisées sont celles du système. |
-| Envoi de données vers un serveur | Aucun envoi initié par l'application n'a été trouvé. |
-| Données de santé dans les adresses ou les journaux | Aucune. |
-| Restriction du navigateur | L'application est publiée avec une règle qui interdit au navigateur de contacter d'autres sites. |
+| Polices et ressources de l'application | Les polices sont fournies avec l'application ; aucun service distant de polices n'est nécessaire. |
+| Échanges réseau | Chargement des fichiers du site et mesure d'audience publique. Aucun mécanisme de téléversement automatique du carnet ou des photos repéré dans le périmètre relu. |
+| Adresse de page envoyée à la mesure d'audience | Limitée aux routes publiques autorisées ; paramètres et fragments retirés. Do Not Track et Global Privacy Control désactivent l'envoi des pages vues. |
+| Restriction du navigateur | Les connexions de l'application sont limitées à sa propre origine. La mesure Vercel utilise cette origine : la restriction ne signifie donc pas absence de traitement par un tiers. |
 
-Les seuls liens vers l'extérieur sont des liens sur lesquels l'utilisateur choisit de cliquer :
-la publication scientifique de référence du score HBI sur PubMed, le site public Mon espace santé,
-les pages de contact de l'éditrice, et l'ouverture du logiciel de messagerie. Cliquer reste une
-décision de l'utilisateur, et aucune donnée du carnet n'est placée dans ces liens.
+Des liens permettent aussi d'ouvrir volontairement des sites tiers : information de l'Assurance
+Maladie, Mon espace santé, pages sociales et professionnelles du projet, questionnaire facultatif
+et messagerie. L'application ne place pas le contenu du carnet dans ces adresses. La navigation
+et les informations saisies ensuite sur un service tiers relèvent de ce service. Le périmètre
+publié figure dans la [politique de confidentialité](https://crohnapp.com/privacy).
 
 ## Où vivent les données
 
@@ -61,8 +66,12 @@ particulier :
 - un contrôle du trafic réseau en conditions réelles reste souhaitable, de même qu'un audit de
   sécurité indépendant, qui n'a pas encore été réalisé.
 
+Les alertes portant sur les composants tiers sont suivies séparément : voir la
+[gestion des dépendances](gestion-dependances.md). Une vérification des flux ou un audit limité
+aux dépendances de l'application ne permet pas de déclarer tout l'outillage exempt de risque.
+
 ## Quand refaire cette vérification
 
 À chaque mise en production notable, et systématiquement si l'application venait à intégrer un
-compte serveur, une synchronisation, une sauvegarde en ligne, une mesure d'audience ou un envoi
-automatique de quoi que ce soit.
+compte serveur, une synchronisation, une sauvegarde en ligne, une extension de la mesure
+d'audience ou un nouveau mécanisme d'envoi automatique.

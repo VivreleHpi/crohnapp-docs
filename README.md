@@ -1,5 +1,7 @@
 # CrohnApp — Documentation publique
 
+**Version de référence : v1.3.4 — documentation mise en cohérence le 14 novembre 2026.**
+
 **Application en ligne : [https://crohnapp.com](https://crohnapp.com)**
 
 ![Tour produit CrohnApp — captures réelles sur un profil fictif (ordinateur)](docs/assets/tutorial-desktop.gif)
@@ -22,6 +24,10 @@ Captures réelles de l'application, réalisées sur un profil fictif (données f
 Ces guides utilisent uniquement des données fictives. Ils sont capturés sur un profil fictif, à
 l'exception de la restauration d'une sauvegarde, qui demande un carnet personnel. Une procédure
 écrite reste présente sous chaque GIF pour l'accessibilité et pour les connexions lentes.
+
+Certaines captures illustrent une version antérieure : le numéro visible dans un GIF n'indique
+pas la version actuellement publiée. Consultez **Profil** dans l'application et le
+[journal des changements](compliance/journal_changements.md).
 
 Ce dépôt contient uniquement la **documentation** de CrohnApp, une PWA React/TypeScript qui aide une personne vivant avec la maladie de Crohn à suivre ses symptômes, selles, traitements et à préparer une discussion avec son équipe soignante.
 
@@ -57,7 +63,7 @@ Rédigé pour être lisible par un non-technicien, il reflète l'architecture r�
 |---|---|
 | [compliance/finalite_application.md](compliance/finalite_application.md) | Ce que fait l'application et ce qu'elle ne fait pas |
 | [compliance/donnees_collectees.md](compliance/donnees_collectees.md) | Inventaire des données traitées et de leur stockage |
-| [compliance/registre_traitements_rgpd.md](compliance/registre_traitements_rgpd.md) | Analyse RGPD adaptée au mode local |
+| [compliance/registre_traitements_rgpd.md](compliance/registre_traitements_rgpd.md) | Traitements du carnet et du site, périmètre et limites de la relecture |
 | [compliance/politique_suppression_donnees.md](compliance/politique_suppression_donnees.md) | Comment supprimer / exporter ses données |
 | [compliance/analyse_risque_securite.md](compliance/analyse_risque_securite.md) | Risques identifiés et mesures de réduction |
 | [compliance/sources_cliniques.md](compliance/sources_cliniques.md) | Références des scores et échelles utilisés |
@@ -72,6 +78,7 @@ Rédigé pour être lisible par un non-technicien, il reflète l'architecture r�
 
 - [docs/revue-technique-flux-donnees.md](docs/revue-technique-flux-donnees.md) — revue technique **interne** des flux de données : ce qui a été cherché, ce qui a été constaté, et ce que cette revue ne prouve pas. Un audit de sécurité externe indépendant reste à réaliser.
 - [docs/EXPORT_SECURITY.md](docs/EXPORT_SECURITY.md) — sauvegardes chiffrées et limites de récupération.
+- [docs/gestion-dependances.md](docs/gestion-dependances.md) — suivi des mises à jour, distinction entre application et outillage, contrôles et limites des audits de dépendances.
 - [docs/international-rollout.md](docs/international-rollout.md) — porte de revue avant tout nouveau pays.
 - **Vérification du code source** — le code reste privé. Une lecture des modules qui portent le chiffrement, le stockage local et les exports peut être accordée sur demande motivée : [crohnapp@gmail.com](mailto:crohnapp@gmail.com).
 

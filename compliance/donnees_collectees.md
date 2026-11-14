@@ -1,10 +1,11 @@
 # Données traitées et stockage
 
-*Revérifié le 30 août 2026 sur CrohnApp v1.2.4.*
+*Référence : CrohnApp v1.3.4. Relecture documentaire interne du 14 novembre 2026.*
 
-Les informations ci-dessous sont saisies par l'utilisateur et restent sur son appareil. Elles ne
-sont pas transmises à l'éditrice. L'hébergeur sert les fichiers de l'application et traite les
-requêtes de chargement habituelles, mais ne reçoit pas le contenu du carnet.
+Les données de santé saisies par l'utilisateur restent sur son appareil. Elles ne sont pas
+transmises à l'éditrice. Le chargement du site et la mesure d'audience des pages publiques
+produisent aussi des informations techniques, décrites séparément ci-dessous ; elles ne
+contiennent pas le contenu du carnet.
 
 ## Inventaire
 
@@ -20,6 +21,8 @@ requêtes de chargement habituelles, mais ne reçoit pas le contenu du carnet.
 | Identité locale | l'identifiant du profil sur cet appareil | Stockage simple du navigateur | Non clinique ; sert à retrouver le bon coffre |
 | Préférences | thème, langue, rappels, tutoriels vus | Stockage simple du navigateur | Non clinique |
 | Données de démonstration | saisies faites dans le profil démo | Coffre fictif séparé, mot de passe constant | Non protégée ; effacée à la sortie et au plus tard après 24 h |
+| Connexion au site | requêtes de chargement, adresse IP, caractéristiques du navigateur | Traitement technique par l'hébergeur | Ne contient pas le contenu du carnet ; distinct du stockage local |
+| Audience des pages publiques | pages vues autorisées et statistiques générales de visite | Vercel Web Analytics, sur le site de production uniquement | Pas de mesure des pages du carnet ni d'événement clinique personnalisé ; paramètres et fragments retirés de l'adresse mesurée ; envoi des pages vues désactivé par Do Not Track ou Global Privacy Control |
 
 Le coffre est déverrouillé par le mot de passe du profil. Ce mot de passe n'est jamais enregistré
 et ne peut pas être réinitialisé à distance. Après un rechargement, un profil réel se reverrouille.
@@ -60,7 +63,8 @@ Il est volontairement séparé du carnet réel et n'obéit pas aux mêmes règle
 ## Ce qui n'existe pas
 
 - aucun compte serveur, aucune synchronisation entre appareils ;
-- aucun outil de mesure d'audience, cookie publicitaire ou traceur ;
+- aucun cookie publicitaire, rejeu de session ou suivi des actions cliniques ; la mesure
+  d'audience limitée aux pages publiques est décrite dans les [flux de données](flux_donnees.md) ;
 - aucune récupération ni réinitialisation du mot de passe à distance ;
 - aucune transmission automatique des données de santé à l'éditrice.
 

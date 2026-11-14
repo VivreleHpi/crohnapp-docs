@@ -1,10 +1,11 @@
 # Analyse de risques — sécurité et santé
 
-Chaque risque identifié est associé à une mesure de réduction. Statut révisé au 13 août 2026,
-CrohnApp v1.1.0.
+Chaque risque identifié est associé à une mesure de réduction. Analyse initiale du 13 août 2026 ;
+mise en cohérence documentaire le 14 novembre 2026 pour **CrohnApp v1.3.4**.
 
-> **Portée** : analyse réalisée sur la v1.1.0. L'application est aujourd'hui en v1.2.5 ;
-> la revérification de ce document est due.
+> **Portée** : relecture interne des mesures décrites et des vérifications disponibles. Elle ne
+> constitue ni une analyse exhaustive des risques, ni une validation clinique ou juridique,
+> ni un audit de sécurité indépendant.
 
 ## Risques techniques
 
@@ -14,7 +15,7 @@ CrohnApp v1.1.0.
 | Accès physique à l'appareil par un tiers | Lecture des données de santé | Carnet et photos chiffrés, reverrouillage après rechargement, verrouillage de l'appareil | En place |
 | Import d'un fichier de sauvegarde corrompu ou malveillant | Corruption des données | Contrôle du contenu à l'import et confirmation explicite avant tout remplacement | En place |
 | Suppression accidentelle | Perte définitive | Double confirmation avec saisie du mot SUPPRIMER | En place |
-| Dépendances vulnérables | Compromission du build | Suivi des dépendances, builds Vercel reproductibles | Continu |
+| Dépendances vulnérables | Compromission de l'application ou de son outillage | Versions verrouillées, suivi des avis, examen des alertes et mises à jour vérifiées ; application et outillage suivis distinctement | Suivi continu ; des alertes d'outillage restent à traiter |
 
 ## Risques santé (les plus importants)
 
@@ -33,6 +34,11 @@ CrohnApp v1.1.0.
 Un audit de sécurité indépendant n'a pas encore été réalisé, et la relecture clinique par un
 professionnel reste à obtenir. Ces deux points sont des conditions préalables à un usage élargi,
 pas des cases déjà cochées.
+
+Un contrôle de dépendances limité à l'application ne couvre pas tous les outils de construction
+et de test. Les résultats et leurs limites sont décrits dans la
+[gestion des dépendances](../docs/gestion-dependances.md) ; une alerte d'outillage n'est pas
+considérée sans risque du seul fait qu'elle ne concerne pas un paquet déclaré pour l'application.
 
 ## Ce qui déclencherait une nouvelle analyse
 

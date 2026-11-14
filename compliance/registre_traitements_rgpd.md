@@ -1,26 +1,38 @@
-# Analyse RGPD — mode local
+# Traitements décrits — carnet local et fonctionnement du site
+
+*Référence : CrohnApp v1.3.4. Mise en cohérence documentaire du 14 novembre 2026.*
 
 ## Situation actuelle
 
-CrohnApp fonctionne **entièrement en local** : les données de santé restent sur
-l'appareil de l'utilisateur, sous son contrôle exclusif, à des fins strictement personnelles.
-Dans cette configuration, l'éditrice n'a accès à aucune donnée de santé : elle n'en assure ni la
-collecte, ni la transmission, ni la conservation. Les seuls traitements qui subsistent sont d'ordre
-technique ou volontaire, et sont décrits ci-dessous. (Cadre de référence : recommandation CNIL
-relative aux applications mobiles ; l'usage domestique par l'utilisateur relève de l'exemption
-d'usage personnel.)
+Les **données de santé du carnet restent sur l'appareil**. CrohnApp ne dispose d'aucun serveur
+de compte ou de copie distante du carnet. Le fonctionnement du site comprend néanmoins des
+traitements techniques et une mesure d'audience des pages publiques : le mode local du carnet
+ne signifie pas que le site n'effectue aucune communication réseau.
 
-## Ce que l'éditeur traite malgré tout
+Ce document décrit les traitements identifiés. Il ne tranche pas leur qualification juridique,
+leurs bases légales ou les obligations applicables. La
+[politique de confidentialité](https://crohnapp.com/privacy) décrit les engagements publiés ;
+une relecture technique ne remplace pas une validation juridique.
 
-| Traitement | Base | Détail |
+## Traitements liés au fonctionnement du site
+
+| Traitement | Finalité et périmètre | Limites |
 |---|---|---|
-| Hébergement du site statique | Intérêt légitime | Journaux techniques habituels de l'hébergeur (adresse IP, user-agent), non utilisés à des fins de profilage |
-| Contact par e-mail (crohnapp@gmail.com) | Consentement | Uniquement si la personne écrit d'elle-même |
+| Hébergement du site statique | Servir les fichiers et traiter les requêtes de connexion, notamment l'adresse IP et les caractéristiques du navigateur | L'hébergeur ne reçoit pas le contenu du carnet par ce mécanisme |
+| Mesure d'audience Vercel Web Analytics | Statistiques générales de fréquentation des pages publiques autorisées sur crohnapp.com en production | Pages du carnet exclues, pas d'événement clinique personnalisé ; paramètres et fragments retirés de l'adresse mesurée ; envoi des pages vues désactivé par Do Not Track ou Global Privacy Control |
+| Contact par e-mail | Répondre aux messages envoyés volontairement à crohnapp@gmail.com | Ne jamais envoyer de mot de passe, de sauvegarde ou de donnée de santé |
+
+La mesure d'audience est assurée par Vercel même si ses échanges passent par le domaine du site.
+Elle est distincte des calculs de la page « Analyses », exécutés localement. Le fonctionnement
+sans cookie annoncé par le fournisseur ne démontre pas, à lui seul, une exemption de consentement,
+une durée de conservation de toutes les données ou une localisation du traitement. Ces questions
+doivent être examinées séparément ; aucune conformité générale n'est certifiée ici.
+Les [conditions publiées par la CNIL pour la mesure d'audience](https://www.cnil.fr/fr/cookies-solutions-pour-les-outils-de-mesure-daudience)
+constituent une référence pour cet examen, sans attester de la conformité de CrohnApp.
 
 ## Droits de l'utilisateur
 
-Exercés directement dans l'application, sans intermédiaire et sans demande à adresser à
-l'éditrice :
+Pour le contenu du carnet, les actions sont exercées directement dans l'application :
 
 - **Accès et portabilité** : exports CSV et JSON lisibles, sauvegardes chiffrées du carnet et des
   photos.
@@ -28,8 +40,10 @@ l'éditrice :
 - **Effacement** : suppression entrée par entrée, ou remise à zéro complète depuis la page
   « Données et sauvegardes ». La suppression est locale et définitive.
 
-Ces droits n'ont pas de contrepartie côté serveur : comme rien n'est conservé à distance, il n'y a
-ni délai de réponse, ni copie résiduelle à purger.
+CrohnApp ne conserve pas de copie distante du contenu du carnet à purger. Cette observation ne
+s'applique pas aux informations techniques traitées par l'hébergeur, à la mesure d'audience ou
+aux e-mails reçus. Pour une question concernant ces traitements, utilisez le contact indiqué
+dans la politique de confidentialité.
 
 ## Si un backend est envisagé un jour
 

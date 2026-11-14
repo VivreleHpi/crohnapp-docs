@@ -1,6 +1,6 @@
 # Sauvegarder, exporter et supprimer ses données
 
-*Revérifié le 30 août 2026 sur CrohnApp v1.2.4.*
+*Référence : CrohnApp v1.3.4. Relecture documentaire interne du 14 novembre 2026.*
 
 ## Sauvegarder avant toute opération destructive
 
@@ -35,8 +35,9 @@ photos ne remplace pas celle du carnet, et inversement.
   individuellement depuis son écran.
 - La remise à zéro complète se trouve dans **Données et sauvegardes** et demande de saisir le mot
   `SUPPRIMER`. Elle efface le profil, le carnet, les historiques et les photos de cet appareil.
-- L'opération est immédiate et irréversible. Comme rien n'est conservé sur un serveur, il n'existe
-  aucune copie à restaurer.
+- L'opération est immédiate et irréversible. CrohnApp ne conserve aucune copie distante du carnet
+  ou des photos. Seules les sauvegardes que vous avez vous-même conservées permettent une
+  restauration, avec leurs mots de passe.
 
 ## Le cas du profil de démonstration
 

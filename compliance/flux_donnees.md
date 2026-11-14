@@ -1,7 +1,6 @@
 # Où vont les données (« local-first »)
 
-*Revérifié le 30 août 2026 sur CrohnApp v1.2.4. À refaire avant toute version qui ajouterait un
-échange avec un serveur.*
+*Référence : CrohnApp v1.3.4. Relecture documentaire interne du 14 novembre 2026.*
 
 La formulation publique autorisée est : « Les données sont enregistrées localement par défaut.
 L'utilisateur peut les consulter, les modifier, les exporter et les supprimer. » Les formulations
@@ -13,6 +12,7 @@ flowchart LR
   H[Hébergeur<br/>fichiers de l'application] --> PWA
   PWA --> Carnet[(Coffre chiffré<br/>carnet de suivi)]
   PWA --> Photos[(Espace photos<br/>chiffré, séparé)]
+  PWA --> Audience[Pages vues publiques autorisées<br/>sans contenu du carnet<br/>Vercel Web Analytics]
   Carnet --> Exports[Export demandé par l'utilisateur]
   Photos --> Exports
   Exports --> Fichiers[CSV / JSON / sauvegardes chiffrées<br/>PDF / PNG]
@@ -23,19 +23,39 @@ flowchart LR
 
 ## État vérifié
 
-| Sujet | Constat en v1.2.4 |
+| Sujet | Constat en v1.3.4 |
 | --- | --- |
 | Carnet de suivi | Enregistré dans un coffre chiffré sur l'appareil, ouvert par le mot de passe du profil. |
 | Photos | Enregistrées chiffrées dans un espace séparé, jamais téléversées. |
 | Compte | Aucun serveur d'identité. Le profil et son mot de passe sont locaux ; pas de « mot de passe oublié » à distance. |
 | Base distante | Aucune. Aucune synchronisation entre appareils. |
-| Appels réseau sortants | Aucun dans le code de l'application : ni requête de fond, ni envoi automatique, ni connexion permanente. |
+| Appels réseau | Chargement des fichiers de l'application et mesure des pages publiques autorisées. Aucun mécanisme de synchronisation ou de téléversement du contenu du carnet. |
 | Sauvegardes | Deux sauvegardes distinctes, carnet et photos, créées et restaurées manuellement. Aucune sauvegarde automatique dans le cloud. |
 | PDF et PNG | Produits sur l'appareil. L'application ne les envoie nulle part. Depuis la v1.2.2, la synthèse peut être remise à une autre application par la feuille de partage du système, sur demande explicite : voir ci-dessous. |
-| Mesure d'audience et rapports d'erreur | Aucun outil tiers. La page « Analyses » calcule tout sur l'appareil. |
+| Mesure d'audience | Vercel Web Analytics sur les seules pages publiques autorisées en production, avec les garde-fous décrits ci-dessous. La page « Analyses » du carnet calcule ses résultats sur l'appareil et n'est pas mesurée. |
+| Rapports d'erreur automatiques | Aucun service distant de rapport d'erreur n'est intégré. |
 | Mon espace santé | L'application prépare le PDF et ouvre le site officiel dans un nouvel onglet. Elle n'y dépose rien : le versement est fait par l'utilisateur, sur ce site, hors de CrohnApp. |
 | Ancienne adresse de la bêta | Une passerelle ne redirige vers l'adresse actuelle que si aucun carnet local n'existe sur l'ancienne. Sinon elle avertit, sans rien transférer : voir ci-dessous. |
 | Liens externes | Navigation volontaire vers des pages publiques ou ouverture du logiciel de messagerie. Aucune donnée du carnet n'est placée dans ces liens. |
+
+## Mesure d'audience des pages publiques
+
+Sur le domaine de production crohnapp.com, Vercel Web Analytics mesure les pages vues de
+l'accueil, de l'accès au carnet et d'une liste de pages d'information. Il ne mesure pas les
+écrans du carnet : selles, symptômes, traitements, photos, rapports et autres données de santé
+ne sont pas envoyés à cette fin. Aucun événement personnalisé ne suit ces actions.
+
+Le filtre retire les paramètres et fragments de l'adresse de la page mesurée. Les signaux
+**Do Not Track** et **Global Privacy Control** désactivent l'envoi des pages vues. Cette mesure n'est pas
+activée par l'application sur les prévisualisations ou sur un autre domaine.
+Le chargement des fichiers du site reste nécessaire au fonctionnement de l'application.
+
+Les échanges de mesure passent par le domaine du site ; cela reste un traitement assuré par
+Vercel, distinct du coffre local. Selon la
+[documentation du fournisseur](https://vercel.com/docs/analytics/privacy-policy), le service
+fonctionne sans cookie. Cette caractéristique ne constitue pas à elle seule une validation
+juridique du traitement. Voir la [politique de confidentialité](https://crohnapp.com/privacy)
+et le [relevé des traitements](registre_traitements_rgpd.md).
 
 ## Partage de la synthèse
 
@@ -67,9 +87,9 @@ carnet ne figure pas dans ces requêtes.
 
 ## Ce qui rendrait cette vérification caduque
 
-L'ajout d'un compte serveur, d'une base distante, d'une synchronisation, d'une sauvegarde dans le
-cloud, d'une mesure d'audience, d'un rapport d'erreur automatique, d'un envoi d'e-mail intégré, ou
-de tout échange transportant des données utilisateur.
+L'ajout d'un compte serveur, d'une base distante, d'une synchronisation ou d'une sauvegarde dans
+le cloud ; l'extension de la mesure d'audience à d'autres pages ou données ; l'ajout d'un rapport
+d'erreur automatique, d'un envoi d'e-mail intégré ou de tout nouvel échange de données.
 
 ## Aller plus loin
 

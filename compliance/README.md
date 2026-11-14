@@ -3,12 +3,13 @@
 Ce dossier documente la finalité, les données, les risques et les engagements de CrohnApp.
 Il est rédigé pour être lisible par un non-technicien.
 
-L'application est aujourd'hui en **v1.2.5**. Les analyses détaillées de ce dossier — flux de
-données, risques, revue technique — ont été réalisées sur la v1.1.0, le 13 août 2026, et
-portent chacune leur date ; leur revérification pour la version courante est due.
+La version de référence de ce dossier est **v1.3.4**. La documentation a été mise en cohérence
+avec cette version le **14 novembre 2026**, par relecture interne du fonctionnement et des
+contrôles existants. Les dates des analyses initiales sont conservées lorsqu'elles précisent
+leur portée. Cette mise à jour ne constitue ni un audit de sécurité indépendant ni une
+validation juridique ou clinique.
 
-Les engagements ci-dessous ont en revanche été revérifiés le 30 août 2026 et restent exacts
-en v1.2.4 :
+Les engagements décrits pour cette version sont :
 
 - Application web installable, servie sous forme de fichiers statiques.
 - **Les données de santé restent sur l'appareil** : le carnet de suivi dans un coffre chiffré, les
@@ -27,7 +28,7 @@ en v1.2.4 :
 | [finalite_application.md](finalite_application.md) | Ce que fait l'application et ce qu'elle ne fait pas |
 | [donnees_collectees.md](donnees_collectees.md) | Inventaire des données traitées et de leur stockage |
 | [flux_donnees.md](flux_donnees.md) | Où vont les données et ce qui ne sort pas de l'appareil |
-| [registre_traitements_rgpd.md](registre_traitements_rgpd.md) | Analyse RGPD adaptée au mode local |
+| [registre_traitements_rgpd.md](registre_traitements_rgpd.md) | Traitements du carnet et du site, périmètre et limites de la relecture |
 | [politique_suppression_donnees.md](politique_suppression_donnees.md) | Sauvegarder, exporter et supprimer ses données |
 | [analyse_risque_securite.md](analyse_risque_securite.md) | Risques identifiés et mesures de réduction |
 | [sources_cliniques.md](sources_cliniques.md) | Références des scores et échelles utilisés |
@@ -36,6 +37,9 @@ en v1.2.4 :
 | [preuves_ia_exigences.md](preuves_ia_exigences.md) | État des preuves, IA et exigences avant toute évolution |
 | [plan_validation_clinique.md](plan_validation_clinique.md) | Plan de validation terrain (beta) |
 | [journal_changements.md](journal_changements.md) | Journal des évolutions notables |
+
+Le [suivi des dépendances](../docs/gestion-dependances.md) décrit aussi les contrôles de
+l'application et de son outillage, ainsi que leurs limites et les alertes encore suivies.
 
 Ce dossier est une aide produit ; il ne constitue ni un avis juridique ni un avis médical. Pour
 une question technique précise ou une demande de lecture du code, qui reste privé :

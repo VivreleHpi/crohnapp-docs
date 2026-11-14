@@ -13,6 +13,10 @@ après vérification du site et, lorsque nécessaire, de la PWA installée.
 - Mise à jour de sécurité de l'outillage utilisé pour préparer CrohnApp.
 - Version produit portée à 1.3.4, consultable dans **Profil**.
 - Les carnets, le coffre chiffré, les photos, les formats de sauvegarde et la restauration sont inchangés.
+- Documentation publique mise en cohérence avec v1.3.4 : mesure d'audience des pages publiques,
+  distinction avec le carnet local, suivi des dépendances et limites des contrôles. Les anciennes
+  captures sont signalées comme illustrations. Cette mise à jour documentaire n'ajoute aucune
+  nouvelle fonction à l'application.
 
 ## v1.3.3 — 2026-10-30
 
