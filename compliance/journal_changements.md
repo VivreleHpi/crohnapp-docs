@@ -8,6 +8,20 @@ sécurité, les calculs ou la conservation des données. La documentation techni
 à jour pendant le développement ; ce journal public est synchronisé lors de la mise en production,
 après vérification du site et, lorsque nécessaire, de la PWA installée.
 
+## v1.3.5 — 2026-11-19
+
+- Version produit portée à 1.3.5, consultable dans **Profil**.
+- Maintenance des composants : à la suite des notifications reçues sur les dépendances, les
+  composants de l'application et l'outillage qui sert à la préparer ont été revus, puis mis à
+  jour de façon contrôlée, par étapes vérifiées séparément.
+- Avant publication : tests automatisés, parcours dans un navigateur sur ordinateur et en
+  affichage mobile, fonctionnement hors ligne, et contrôles de compatibilité avec des carnets,
+  des sauvegardes chiffrées et des photos créés par des versions antérieures.
+- Les fonctions de suivi personnel sont inchangées. Les carnets, le coffre chiffré, les photos,
+  les formats de sauvegarde et la restauration sont inchangés.
+- Documentation publique mise en cohérence avec v1.3.5. Voir la
+  [note de maintenance v1.3.5](../docs/maintenance-v1.3.5.md).
+
 ## v1.3.4 — 2026-11-14
 
 - Mise à jour de sécurité de l'outillage utilisé pour préparer CrohnApp.

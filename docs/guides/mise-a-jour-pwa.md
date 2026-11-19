@@ -7,7 +7,7 @@ silencieusement lorsque l'application est fermée ; dans ce cas, CrohnApp confir
 <img src="../assets/guides/mobile/mise-a-jour-version-mobile.gif" alt="Sur mobile, CrohnApp confirme la mise à jour puis affiche la version installée dans le profil" width="360" />
 
 *Illustration enregistrée en v1.2.7 avec des données fictives. Le numéro montré dans le GIF est
-un exemple ; ce guide se réfère à v1.3.4. La version réellement installée se lit dans Profil.*
+un exemple ; ce guide se réfère à v1.3.5. La version réellement installée se lit dans Profil.*
 
 1. Gardez une connexion Internet active et fermez complètement CrohnApp.
 2. Fermez aussi les onglets `crohnapp.com` encore ouverts dans Chrome.

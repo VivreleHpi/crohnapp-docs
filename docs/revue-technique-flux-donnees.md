@@ -1,7 +1,8 @@
 # Revue technique interne des flux de données — CrohnApp
 
 *Analyse initiale du 13 août 2026 sur v1.1.0 ; relecture interne mise à jour le 14 novembre 2026
-pour CrohnApp v1.3.4.*
+pour CrohnApp v1.3.4, confirmée le 20 novembre 2026 pour v1.3.5, version de maintenance qui ne
+change ni les chemins de stockage, ni les exports, ni la mesure d'audience.*
 
 La relecture porte sur les chemins de stockage, d'export et de mesure d'audience du code de cette
 version. Un contrôle du chargement de l'accueil en production confirme aussi la présence du

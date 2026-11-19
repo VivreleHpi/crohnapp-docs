@@ -1,6 +1,8 @@
 # Sauvegarder, exporter et supprimer ses données
 
-*Référence : CrohnApp v1.3.4. Relecture documentaire interne du 14 novembre 2026.*
+*Référence : CrohnApp v1.3.5. Relecture documentaire interne du 14 novembre 2026 (v1.3.4),
+confirmée le 20 novembre 2026 : v1.3.5 ne modifie ni les sauvegardes, ni les exports, ni la
+suppression.*
 
 ## Sauvegarder avant toute opération destructive
 
