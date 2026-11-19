@@ -1,6 +1,8 @@
 # Où vont les données (« local-first »)
 
-*Référence : CrohnApp v1.3.4. Relecture documentaire interne du 14 novembre 2026.*
+*Référence : CrohnApp v1.3.5. Relecture documentaire interne du 14 novembre 2026 (v1.3.4),
+confirmée le 20 novembre 2026 : v1.3.5 ne modifie aucun flux de données, et les domaines
+contactés par le site en production ont été relevés à nouveau.*
 
 La formulation publique autorisée est : « Les données sont enregistrées localement par défaut.
 L'utilisateur peut les consulter, les modifier, les exporter et les supprimer. » Les formulations
@@ -23,7 +25,7 @@ flowchart LR
 
 ## État vérifié
 
-| Sujet | Constat en v1.3.4 |
+| Sujet | Constat en v1.3.4, confirmé en v1.3.5 |
 | --- | --- |
 | Carnet de suivi | Enregistré dans un coffre chiffré sur l'appareil, ouvert par le mot de passe du profil. |
 | Photos | Enregistrées chiffrées dans un espace séparé, jamais téléversées. |

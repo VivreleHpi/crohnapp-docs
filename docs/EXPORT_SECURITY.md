@@ -1,6 +1,7 @@
 # Sauvegardes et exports : ce qui est protégé, ce qui ne l'est pas
 
-*Référence : CrohnApp v1.3.4. Relecture documentaire interne du 14 novembre 2026.*
+*Référence : CrohnApp v1.3.5. Relecture documentaire interne du 14 novembre 2026 (v1.3.4),
+confirmée le 20 novembre 2026.*
 
 ## Choisir le bon format
 
@@ -15,8 +16,9 @@ Les sauvegardes chiffrées utilisent AES-GCM 256 bits, avec une clé dérivée d
 PBKDF2-SHA-256 (600 000 itérations) et des valeurs aléatoires renouvelées à chaque export. Un
 mot de passe incorrect ou un fichier modifié est rejeté plutôt que restauré partiellement.
 
-La version d'un format de sauvegarde est distincte de la version de CrohnApp. La livraison
-v1.3.4 ne change pas les formats ni le mécanisme de restauration des sauvegardes existantes.
+La version d'un format de sauvegarde est distincte de la version de CrohnApp. Les livraisons
+v1.3.4 et v1.3.5 ne changent pas les formats ni le mécanisme de restauration des sauvegardes
+existantes.
 
 ## Deux sauvegardes, pas une
 

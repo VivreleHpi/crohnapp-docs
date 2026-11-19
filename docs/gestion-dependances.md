@@ -1,6 +1,6 @@
 # Gestion des dépendances et limites des contrôles
 
-*Référence : CrohnApp v1.3.4. État documentaire du 14 novembre 2026.*
+*Référence : CrohnApp v1.3.5. État documentaire du 20 novembre 2026.*
 
 CrohnApp utilise des composants tiers pour son interface et des outils pour préparer, construire
 et vérifier l'application. Leur suivi fait partie de la maintenance de sécurité, même lorsque
@@ -34,6 +34,18 @@ doivent donc rester visibles dans son interprétation.
 La [documentation npm](https://docs.npmjs.com/cli/audit/) précise le rôle du seuil d'échec et
 des dépendances omises. Un audit de dépendances ne remplace pas une revue du code ou un audit
 de sécurité indépendant.
+
+## État relevé pour v1.3.5
+
+Le 19 novembre 2026, après la publication de v1.3.5, aucune alerte de dépendance connue n'est
+ouverte, ni pour l'application ni pour l'outillage. Les mises à jour ont été menées par étapes
+séparées, chacune vérifiée avant publication : typage, tests, construction, parcours navigateur
+dont le fonctionnement hors ligne, et compatibilité des carnets, des photos et des sauvegardes
+créés avec des versions antérieures. Les évolutions qui demanderaient d'adapter une partie
+sensible du code sont examinées séparément, avant toute publication.
+
+Cet état est daté et ne constitue pas une certification de sécurité : de nouveaux avis peuvent
+apparaître. Voir la [note de maintenance v1.3.5](maintenance-v1.3.5.md).
 
 ## État relevé pour v1.3.4
 

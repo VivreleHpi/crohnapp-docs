@@ -1,6 +1,6 @@
 # CrohnApp — Documentation publique
 
-**Version de référence : v1.3.4 — documentation mise en cohérence le 14 novembre 2026.**
+**Version de référence : v1.3.5 — documentation mise en cohérence le 20 novembre 2026.**
 
 **Application en ligne : [https://crohnapp.com](https://crohnapp.com)**
 
@@ -44,6 +44,8 @@ Le **code source vit dans un dépôt privé**. Ce dépôt public existe pour don
 
 Elle ne diagnostique pas, ne remplace pas un professionnel de santé et ne doit pas être utilisée pour trier une urgence.
 
+Cette documentation décrit uniquement la version publiée sur [crohnapp.com](https://crohnapp.com). Une fonction en préparation n'y est décrite qu'à sa mise en production.
+
 Depuis la v1.2.6, le calcul du score HBI et le « signal de suivi » sont suspendus, dans l'attente d'une relecture médicale et réglementaire. Les scores déjà enregistrés sont conservés. Voir [compliance/hbi_calcul.md](compliance/hbi_calcul.md).
 
 ## Appel à participation (bêta publique)
@@ -79,6 +81,7 @@ Rédigé pour être lisible par un non-technicien, il reflète l'architecture r�
 - [docs/revue-technique-flux-donnees.md](docs/revue-technique-flux-donnees.md) — revue technique **interne** des flux de données : ce qui a été cherché, ce qui a été constaté, et ce que cette revue ne prouve pas. Un audit de sécurité externe indépendant reste à réaliser.
 - [docs/EXPORT_SECURITY.md](docs/EXPORT_SECURITY.md) — sauvegardes chiffrées et limites de récupération.
 - [docs/gestion-dependances.md](docs/gestion-dependances.md) — suivi des mises à jour, distinction entre application et outillage, contrôles et limites des audits de dépendances.
+- [docs/maintenance-v1.3.5.md](docs/maintenance-v1.3.5.md) — note de maintenance de la v1.3.5 : mises à jour contrôlées, vérifications avant publication et ce qui ne change pas.
 - [docs/international-rollout.md](docs/international-rollout.md) — porte de revue avant tout nouveau pays.
 - **Vérification du code source** — le code reste privé. Une lecture des modules qui portent le chiffrement, le stockage local et les exports peut être accordée sur demande motivée : [crohnapp@gmail.com](mailto:crohnapp@gmail.com).
 
@@ -110,6 +113,8 @@ Pour toute question, retour de participation ou demande d'accès en lecture au c
 ## English summary
 
 > **Status: public local-first beta.** CrohnApp is currently presented as a descriptive personal logbook. Its regulatory qualification is being specifically assessed.
+
+Reference version: v1.3.5, a maintenance release published on 19 November 2026. Tracking features are unchanged.
 
 This repository contains only the **documentation** for CrohnApp, a React/TypeScript PWA that helps people living with Crohn's disease track symptoms, stool logs and medication, and prepare better conversations with their care team.
 

@@ -1,6 +1,7 @@
 # Traitements décrits — carnet local et fonctionnement du site
 
-*Référence : CrohnApp v1.3.4. Mise en cohérence documentaire du 14 novembre 2026.*
+*Référence : CrohnApp v1.3.5. Mise en cohérence documentaire du 14 novembre 2026 (v1.3.4),
+confirmée le 20 novembre 2026 : v1.3.5 ne modifie aucun traitement de données.*
 
 ## Situation actuelle
 

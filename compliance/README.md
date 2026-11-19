@@ -3,8 +3,8 @@
 Ce dossier documente la finalité, les données, les risques et les engagements de CrohnApp.
 Il est rédigé pour être lisible par un non-technicien.
 
-La version de référence de ce dossier est **v1.3.4**. La documentation a été mise en cohérence
-avec cette version le **14 novembre 2026**, par relecture interne du fonctionnement et des
+La version de référence de ce dossier est **v1.3.5**. La documentation a été mise en cohérence
+avec cette version le **20 novembre 2026**, par relecture interne du fonctionnement et des
 contrôles existants. Les dates des analyses initiales sont conservées lorsqu'elles précisent
 leur portée. Cette mise à jour ne constitue ni un audit de sécurité indépendant ni une
 validation juridique ou clinique.
@@ -39,7 +39,8 @@ Les engagements décrits pour cette version sont :
 | [journal_changements.md](journal_changements.md) | Journal des évolutions notables |
 
 Le [suivi des dépendances](../docs/gestion-dependances.md) décrit aussi les contrôles de
-l'application et de son outillage, ainsi que leurs limites et les alertes encore suivies.
+l'application et de son outillage, ainsi que leurs limites et l'état daté des alertes. La
+[note de maintenance v1.3.5](../docs/maintenance-v1.3.5.md) résume la dernière campagne de mises à jour.
 
 Ce dossier est une aide produit ; il ne constitue ni un avis juridique ni un avis médical. Pour
 une question technique précise ou une demande de lecture du code, qui reste privé :

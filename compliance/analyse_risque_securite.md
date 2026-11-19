@@ -1,7 +1,8 @@
 # Analyse de risques — sécurité et santé
 
 Chaque risque identifié est associé à une mesure de réduction. Analyse initiale du 13 août 2026 ;
-mise en cohérence documentaire le 14 novembre 2026 pour **CrohnApp v1.3.4**.
+mise en cohérence documentaire le 14 novembre 2026 (v1.3.4), puis le 20 novembre 2026 pour
+**CrohnApp v1.3.5**.
 
 > **Portée** : relecture interne des mesures décrites et des vérifications disponibles. Elle ne
 > constitue ni une analyse exhaustive des risques, ni une validation clinique ou juridique,
@@ -15,7 +16,7 @@ mise en cohérence documentaire le 14 novembre 2026 pour **CrohnApp v1.3.4**.
 | Accès physique à l'appareil par un tiers | Lecture des données de santé | Carnet et photos chiffrés, reverrouillage après rechargement, verrouillage de l'appareil | En place |
 | Import d'un fichier de sauvegarde corrompu ou malveillant | Corruption des données | Contrôle du contenu à l'import et confirmation explicite avant tout remplacement | En place |
 | Suppression accidentelle | Perte définitive | Double confirmation avec saisie du mot SUPPRIMER | En place |
-| Dépendances vulnérables | Compromission de l'application ou de son outillage | Versions verrouillées, suivi des avis, examen des alertes et mises à jour vérifiées ; application et outillage suivis distinctement | Suivi continu ; des alertes d'outillage restent à traiter |
+| Dépendances vulnérables | Compromission de l'application ou de son outillage | Versions verrouillées, suivi des avis, examen des alertes et mises à jour vérifiées ; application et outillage suivis distinctement | Suivi continu ; aucune alerte connue ouverte au 19 novembre 2026 (état daté) |
 
 ## Risques santé (les plus importants)
 

@@ -1,6 +1,7 @@
 # Données traitées et stockage
 
-*Référence : CrohnApp v1.3.4. Relecture documentaire interne du 14 novembre 2026.*
+*Référence : CrohnApp v1.3.5. Relecture documentaire interne du 14 novembre 2026 (v1.3.4),
+confirmée le 20 novembre 2026 : v1.3.5 ne modifie ni les données traitées ni leur stockage.*
 
 Les données de santé saisies par l'utilisateur restent sur son appareil. Elles ne sont pas
 transmises à l'éditrice. Le chargement du site et la mesure d'audience des pages publiques
