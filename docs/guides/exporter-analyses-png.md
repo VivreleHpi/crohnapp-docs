@@ -6,7 +6,10 @@ serveur.
 
 <img src="../assets/guides/mobile/export-analyses-png-mobile.gif" alt="Sur mobile, ouverture des analyses puis export d'un graphique en PNG haute définition" width="360" />
 
-1. Ouvrez **Analyses** et choisissez la période à afficher.
+*Illustration enregistrée en v1.2.7 avec des données fictives. Les étapes ci-dessous reprennent les
+libellés de la v1.3.5.*
+
+1. Ouvrez **Analyses & tendances** et choisissez la période à afficher.
 2. Repérez le graphique voulu, puis touchez son bouton **PNG**.
 3. Le téléchargement démarre et CrohnApp confirme « PNG exporté ».
 4. Ouvrez le fichier depuis les téléchargements du téléphone. Il contient le titre, la période,
