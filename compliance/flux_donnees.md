@@ -34,7 +34,7 @@ flowchart LR
 | Appels réseau | Chargement des fichiers de l'application et mesure des pages publiques autorisées. Aucun mécanisme de synchronisation ou de téléversement du contenu du carnet. |
 | Sauvegardes | Deux sauvegardes distinctes, carnet et photos, créées et restaurées manuellement. Aucune sauvegarde automatique dans le cloud. |
 | PDF et PNG | Produits sur l'appareil. L'application ne les envoie nulle part. Depuis la v1.2.2, la synthèse peut être remise à une autre application par la feuille de partage du système, sur demande explicite : voir ci-dessous. |
-| Mesure d'audience | Vercel Web Analytics sur les seules pages publiques autorisées en production, avec les garde-fous décrits ci-dessous. La page « Analyses » du carnet calcule ses résultats sur l'appareil et n'est pas mesurée. |
+| Mesure d'audience | Vercel Web Analytics sur les seules pages publiques autorisées en production, avec les garde-fous décrits ci-dessous. La page « Analyses & tendances » du carnet calcule ses résultats sur l'appareil et n'est pas mesurée. |
 | Rapports d'erreur automatiques | Aucun service distant de rapport d'erreur n'est intégré. |
 | Mon espace santé | L'application prépare le PDF et ouvre le site officiel dans un nouvel onglet. Elle n'y dépose rien : le versement est fait par l'utilisateur, sur ce site, hors de CrohnApp. |
 | Ancienne adresse de la bêta | Une passerelle ne redirige vers l'adresse actuelle que si aucun carnet local n'existe sur l'ancienne. Sinon elle avertit, sans rien transférer : voir ci-dessous. |

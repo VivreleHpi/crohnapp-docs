@@ -8,7 +8,7 @@ confirmée le 20 novembre 2026.*
 | Format | Contenu | Protection une fois le fichier téléchargé |
 | --- | --- | --- |
 | CSV ou JSON lisible | Données du carnet, en clair | Aucune : toute personne qui obtient le fichier peut le lire |
-| Sauvegarde du carnet, chiffrée | Profil, selles, symptômes, traitements, rendez-vous, scores | Protégée par un mot de passe de sauvegarde |
+| Sauvegarde du carnet, chiffrée (« sauvegarde clinique » dans l'application) | Profil, selles, symptômes, traitements, rendez-vous, scores | Protégée par un mot de passe de sauvegarde |
 | Sauvegarde des photos, chiffrée | Images et informations associées | Fichier distinct, avec son propre mot de passe |
 | Synthèse PDF, graphique PNG | Document lisible destiné à être montré | Aucune : vérifier le destinataire avant de partager |
 
