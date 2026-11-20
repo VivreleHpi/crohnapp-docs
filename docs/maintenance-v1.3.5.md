@@ -2,18 +2,29 @@
 
 *Version publiée le 19 novembre 2026. La version installée se lit dans **Profil**.*
 
-CrohnApp fait l'objet d'une maintenance régulière. La version 1.3.5 est une version d'entretien :
-elle n'ajoute ni ne retire aucune fonction de suivi.
+Dans le cadre de la maintenance régulière de CrohnApp, une campagne de vérification et de mise à
+jour de plusieurs composants logiciels a été menée à la suite de notifications de sécurité et de
+maintenance.
+
+Cette intervention a permis d'actualiser les composants concernés tout en vérifiant la
+compatibilité avec les carnets et les sauvegardes existants. Les fonctions de suivi personnel
+restent inchangées : la version 1.3.5 n'en ajoute ni n'en retire aucune.
+
+Ce travail s'inscrit dans une démarche continue de qualité, de fiabilité et de transparence. La
+documentation publique est actualisée en même temps, pour aider chacun à comprendre les
+évolutions, le fonctionnement et les limites de CrohnApp.
 
 ## Ce qui a été fait
 
 CrohnApp s'appuie sur des composants tiers, ainsi que sur des outils qui servent à la préparer et
 à la vérifier. Des notifications automatiques signalent lorsqu'une faiblesse est connue dans l'un
-de ces composants publics, utilisés par de nombreux logiciels.
+de ces composants publics, utilisés par de nombreux logiciels. Une notification décrit une
+faiblesse possible du composant ; elle ne signifie pas que CrohnApp a été attaqué.
 
 Les notifications reçues ont été examinées, puis traitées par des mises à jour contrôlées. Ces
-mises à jour ont été menées par étapes, et chaque étape a été vérifiée séparément. Ces notifications
-ne correspondent pas à un incident constaté sur CrohnApp.
+mises à jour ont été menées par étapes, et chaque étape a été vérifiée séparément. Au
+19 novembre 2026, aucune notification ne restait ouverte (état daté). Aucun incident n'a été
+constaté sur CrohnApp.
 
 ## Comment la version a été vérifiée avant publication
 
@@ -46,8 +57,9 @@ une sauvegarde des photos : voir [Créer et restaurer une sauvegarde chiffrée](
 ## Limites de cette note
 
 Cette note décrit un état daté. Elle ne constitue ni une certification ni un audit de sécurité
-indépendant. De nouvelles notifications peuvent apparaître après la publication ; elles seront
-examinées de la même façon.
+indépendant. Le suivi des composants tiers est une partie de la maintenance de sécurité : il ne
+remplace ni une revue complète du code ni un audit indépendant, qui reste à réaliser. De nouvelles
+notifications peuvent apparaître après la publication ; elles seront examinées de la même façon.
 
 Le suivi des dépendances est décrit dans [Gestion des dépendances](gestion-dependances.md), et
 l'historique des versions dans le [journal des changements](../compliance/journal_changements.md).
