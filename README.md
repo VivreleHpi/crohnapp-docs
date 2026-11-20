@@ -127,6 +127,16 @@ It does not diagnose, replace a clinician, or triage emergencies.
 
 Since v1.2.6, the HBI score calculation and the "follow-up signal" are suspended, pending medical and regulatory review. Scores already recorded are kept.
 
+This documentation describes only the version published on [crohnapp.com](https://crohnapp.com). The application is available in French only, and France is the only country enabled. The detailed documentation is written in French; the [v1.3.5 maintenance note](docs/maintenance-v1.3.5.md) summarises the latest release.
+
+## Data and privacy
+
+- No server account and no cloud sync. Health data stay on the device, in an encrypted local vault (AES-GCM-256, key derived with PBKDF2-SHA-256). The password is never stored and cannot be recovered or reset remotely.
+- Photos are encrypted in a separate local store. The logbook backup and the photo backup are two separate encrypted files.
+- No health data leaves the device without an explicit user action (export, encrypted backup, PDF, share).
+- On the production site `crohnapp.com`, Vercel Web Analytics counts page views of public pages only (home, sign-in and information pages), as aggregate statistics. Logbook pages are never measured and no health data is sent. Do Not Track and Global Privacy Control disable this measurement.
+- No advertising trackers or cookies.
+
 ## Call for participation (open beta)
 
 The project is looking for feedback from two groups in particular:
