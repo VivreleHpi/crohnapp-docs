@@ -4,7 +4,7 @@
 
 **Application en ligne : [https://crohnapp.com](https://crohnapp.com)**
 
-![Tour produit CrohnApp — captures réelles sur un profil fictif (ordinateur)](docs/assets/tutorial-desktop.gif)
+![Tour de CrohnApp sur ordinateur, enregistré en v1.2.7 sur un profil fictif : tableau de bord, selles, symptômes, traitements, analyses, synthèse PDF, données et sauvegardes](docs/assets/tutorial-desktop.gif)
 
 > **Statut : bêta publique local-first.** CrohnApp est actuellement présenté comme un carnet personnel descriptif. Sa qualification réglementaire fait l'objet d'un cadrage spécifique.
 
@@ -12,7 +12,9 @@
 
 Captures réelles de l'application, réalisées sur un profil fictif (données fictives) : tableau de bord, selles (Bristol), symptômes, traitements, analyses, synthèse PDF et exports/sauvegardes chiffrées. Depuis la v1.2.7, ce profil fictif n'est plus proposé sur le site : pour utiliser CrohnApp, créez votre carnet depuis [crohnapp.com](https://crohnapp.com).
 
-<img src="docs/assets/tutorial-mobile.gif" alt="Tutoriel CrohnApp sur mobile" width="320" />
+Ces deux tours ont été enregistrés en v1.2.7. Certains détails d'affichage peuvent différer de la version publiée ; ils ne montrent aucune des fonctions suspendues depuis la v1.2.6.
+
+<img src="docs/assets/tutorial-mobile.gif" alt="Tour de CrohnApp sur mobile, enregistré en v1.2.7 sur un profil fictif : tableau de bord, selles, symptômes, traitements, analyses, synthèse PDF, données et sauvegardes" width="320" />
 
 ## Guides mobiles essentiels
 
@@ -25,9 +27,10 @@ Ces guides utilisent uniquement des données fictives. Ils sont capturés sur un
 l'exception de la restauration d'une sauvegarde, qui demande un carnet personnel. Une procédure
 écrite reste présente sous chaque GIF pour l'accessibilité et pour les connexions lentes.
 
-Certaines captures illustrent une version antérieure : le numéro visible dans un GIF n'indique
-pas la version actuellement publiée. Consultez **Profil** dans l'application et le
-[journal des changements](compliance/journal_changements.md).
+Les illustrations des guides ont été enregistrées en v1.2.7 ; chaque guide l'indique sous son
+illustration, et ses étapes écrites reprennent les libellés de la version publiée. Le numéro
+visible dans un GIF n'indique donc pas la version actuellement publiée. Consultez **Profil** dans
+l'application et le [journal des changements](compliance/journal_changements.md).
 
 Ce dépôt contient uniquement la **documentation** de CrohnApp, une PWA React/TypeScript qui aide une personne vivant avec la maladie de Crohn à suivre ses symptômes, selles, traitements et à préparer une discussion avec son équipe soignante.
 

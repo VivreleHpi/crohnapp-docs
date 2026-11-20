@@ -7,7 +7,10 @@ changement de téléphone, une réinstallation exceptionnelle ou une opération 
 
 <img src="../assets/guides/mobile/sauvegarde-chiffree-mobile.gif" alt="Création d'une sauvegarde clinique chiffrée dans CrohnApp sur mobile" width="360" />
 
-1. Ouvrez **Données & Sauvegardes**, puis **Exporter mes données**.
+*Illustration enregistrée en v1.2.7 avec des données fictives. Les étapes ci-dessous reprennent les
+libellés de la v1.3.5.*
+
+1. Ouvrez **Données & sauvegardes**, puis **Exporter mes données**.
 2. Saisissez un mot de passe dédié d'au moins 12 caractères.
 3. Touchez **Sauvegarde chiffrée** et confirmez exactement le même mot de passe.
 4. Conservez le fichier et son mot de passe dans deux endroits séparés.
@@ -18,6 +21,9 @@ CrohnApp ne connaît pas ces mots de passe et ne peut pas les réinitialiser.
 ## Restaurer la sauvegarde
 
 <img src="../assets/guides/mobile/restauration-chiffree-mobile.gif" alt="Restauration d'une sauvegarde clinique chiffrée dans CrohnApp sur mobile" width="360" />
+
+*Illustration enregistrée en v1.2.7, sur un carnet d'essai aux données fictives. Les étapes
+ci-dessous reprennent les libellés de la v1.3.5.*
 
 La restauration se fait dans un carnet personnel. Sur un nouvel appareil, créez d'abord votre
 carnet, puis suivez ces étapes.
