@@ -9,7 +9,8 @@ de Crohn ou une MICI. Il permet de :
   déclarées des traitements.
 - Visualiser des tendances simples et explicables (fréquence, sévérité, prises renseignées).
 - Générer une **synthèse des données déclarées pour la consultation** (PDF), avec un indicateur
-  de complétude signalant si les saisies sont suffisantes pour être exploitables.
+  de complétude des saisies : nombre de jours renseignés sur la période. Il décrit la quantité de
+  saisies, pas leur contenu clinique.
 - Exporter ses données : CSV et JSON lisibles, sauvegardes chiffrées du carnet et des photos,
   graphiques en PNG, et préparer un dépôt manuel de la synthèse dans **Mon espace santé**.
 

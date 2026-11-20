@@ -17,7 +17,8 @@ Aucun d'eux n'a été validé cliniquement.
 - Statistiques descriptives (comptes, répartitions par type et par intensité, graphiques). Aucune
   moyenne de l'échelle de Bristol ou de l'intensité n'est affichée, et un jour sans saisie n'est
   jamais affiché comme un zéro.
-- Rapport PDF de synthèse « données déclarées par le patient » avec score de qualité de saisie.
+- Synthèse PDF des données déclarées pour la consultation, avec un indicateur de complétude des
+  saisies (jours renseignés sur la période) qui ne porte pas sur leur contenu clinique.
 - Exports contrôlés par l'utilisateur.
 
 ## Fonctions à ne pas ajouter sans analyse réglementaire

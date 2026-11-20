@@ -23,8 +23,8 @@ mise en cohérence documentaire le 14 novembre 2026 (v1.3.4), puis le 20 novembr
 | Risque | Impact | Mesure de réduction | Statut |
 |---|---|---|---|
 | L'utilisateur croit à un diagnostic automatique | Retard de prise en charge | Disclaimer permanent, aucune formulation diagnostique, page Qualité & sécurité | En place |
-| Rapport interprété comme donnée médicale vérifiée | Décision fondée sur des données déclaratives | Mention « données déclarées par le patient » sur le PDF + section limites + score de qualité du rapport | En place |
-| Absence de saisie interprétée comme absence de symptôme | Sous-estimation | Encadré « Limites de lecture » dans le PDF + score de couverture | En place |
+| Rapport interprété comme donnée médicale vérifiée | Décision fondée sur des données déclaratives | Titre « Synthèse des données déclarées pour la consultation » sur le PDF, mention qu'il ne constitue ni un dossier médical ni un diagnostic, et encadré « Limites de lecture » | En place |
+| Absence de saisie interprétée comme absence de symptôme | Sous-estimation | Encadré « Limites de lecture » dans le PDF, indicateur « Complétude des saisies » (jours renseignés sur la période), aucun jour sans saisie affiché comme un zéro | En place |
 | Urgence non détectée par l'application | Danger vital | L'app ne fait aucun triage ; numéros d'urgence (15/112) rappelés dans le PDF | En place |
 | Score HBI mal calculé ou mal compris | Mauvaise appréciation | Calcul suspendu dans l'application depuis la v1.2.6 ; relecture médicale à obtenir avant de le rétablir | Suspendu |
 | Seuil interne lu comme une évaluation médicale | Fausse réassurance ou inquiétude injustifiée | Signal de suivi, couleurs dérivées d'un seuil et commentaires sur l'échelle de Bristol suspendus depuis la v1.2.6 ; seuls les comptes saisis sont affichés | Suspendu |
