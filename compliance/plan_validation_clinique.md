@@ -5,10 +5,12 @@ clinique prématurée. Trois étapes progressives.
 
 ## Étape 1 — 10 patients volontaires (14 jours)
 
-- Recrutement : entourage, associations de patients MICI, page « Participer à la beta ».
+- Recrutement : entourage, associations de patients MICI, appel à participation de la page
+  **Qualité & sécurité** et de ce dépôt, questionnaire facultatif proposé sur la page d'accueil.
 - Mesures : facilité d'usage, bugs rencontrés, compréhension des écrans, utilité perçue du
   rapport PDF, fatigue de saisie.
-- Canal de retour : formulaire simple (email), aucune donnée de santé transmise.
+- Canal de retour : questionnaire facultatif ou e-mail. Aucune donnée du carnet n'est transmise
+  automatiquement.
 
 ## Étape 2 — 3 professionnels de santé
 
