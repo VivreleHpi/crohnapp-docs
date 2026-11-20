@@ -19,7 +19,7 @@ documentation publique est actualisée en même temps, pour aider chacun à comp
 CrohnApp s'appuie sur des composants tiers, ainsi que sur des outils qui servent à la préparer et
 à la vérifier. Des notifications automatiques signalent lorsqu'une faiblesse est connue dans l'un
 de ces composants publics, utilisés par de nombreux logiciels. Une notification décrit une
-faiblesse possible du composant ; elle ne signifie pas que CrohnApp a été attaqué.
+faiblesse possible d'un composant, pas un incident survenu sur CrohnApp.
 
 Les notifications reçues ont été examinées, puis traitées par des mises à jour contrôlées. Ces
 mises à jour ont été menées par étapes, et chaque étape a été vérifiée séparément. Au
