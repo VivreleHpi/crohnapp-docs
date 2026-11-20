@@ -22,7 +22,7 @@ ancienne installation peut nécessiter une réinstallation seulement après sauv
 
 ## Comment protéger mes données avant une réinstallation ou un changement de téléphone ?
 
-Créez une sauvegarde clinique chiffrée depuis **Données et sauvegardes**. Si vous utilisez des photos,
+Créez une sauvegarde clinique chiffrée depuis **Données & sauvegardes**. Si vous utilisez des photos,
 exportez également leur sauvegarde chiffrée séparée. Gardez les fichiers et leurs mots de passe dans
 des endroits distincts.
 
@@ -102,14 +102,14 @@ Voir aussi : [statut du calcul HBI](../compliance/hbi_calcul.md).
 
 ## Comment obtenir une image lisible d'un graphique ?
 
-Dans **Analyses**, choisissez la période puis touchez **PNG** sur le graphique voulu. Le fichier haute
+Dans **Analyses & tendances**, choisissez la période puis touchez **PNG** sur le graphique voulu. Le fichier haute
 définition contient son titre, la période, la légende, la date d'export et la version de CrohnApp.
 
 Voir le guide : [exporter une analyse en PNG](guides/exporter-analyses-png.md).
 
 ## Comment ajouter une photo à mon carnet ?
 
-Dans **Photos**, l'onglet **Galerie** affiche les photos déjà enregistrées. L'onglet **Prendre une
+Dans **Photos de suivi**, l'onglet **Galerie** affiche les photos déjà enregistrées. L'onglet **Prendre une
 photo** propose deux actions distinctes : **Prendre une photo** ouvre l'appareil photo, et
 **Importer une image** ouvre la galerie ou les fichiers de l'appareil. Les photos sont chiffrées sur
 l'appareil et ne sont jamais envoyées sur Internet.

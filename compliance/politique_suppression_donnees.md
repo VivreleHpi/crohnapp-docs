@@ -35,7 +35,7 @@ photos ne remplace pas celle du carnet, et inversement.
 
 - Chaque entrée — selle, symptôme, traitement, photo, rendez-vous — peut être supprimée
   individuellement depuis son écran.
-- La remise à zéro complète se trouve dans **Données et sauvegardes** et demande de saisir le mot
+- La remise à zéro complète se trouve dans **Données & sauvegardes** et demande de saisir le mot
   `SUPPRIMER`. Elle efface le profil, le carnet, les historiques et les photos de cet appareil.
 - L'opération est immédiate et irréversible. CrohnApp ne conserve aucune copie distante du carnet
   ou des photos. Seules les sauvegardes que vous avez vous-même conservées permettent une

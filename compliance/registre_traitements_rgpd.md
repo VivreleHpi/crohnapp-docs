@@ -24,7 +24,7 @@ une relecture technique ne remplace pas une validation juridique.
 | Contact par e-mail | Répondre aux messages envoyés volontairement à crohnapp@gmail.com | Ne jamais envoyer de mot de passe, de sauvegarde ou de donnée de santé |
 
 La mesure d'audience est assurée par Vercel même si ses échanges passent par le domaine du site.
-Elle est distincte des calculs de la page « Analyses », exécutés localement. Le fonctionnement
+Elle est distincte des calculs de la page « Analyses & tendances », exécutés localement. Le fonctionnement
 sans cookie annoncé par le fournisseur ne démontre pas, à lui seul, une exemption de consentement,
 une durée de conservation de toutes les données ou une localisation du traitement. Ces questions
 doivent être examinées séparément ; aucune conformité générale n'est certifiée ici.
@@ -39,7 +39,7 @@ Pour le contenu du carnet, les actions sont exercées directement dans l'applica
   photos.
 - **Rectification** : édition directe de chaque entrée.
 - **Effacement** : suppression entrée par entrée, ou remise à zéro complète depuis la page
-  « Données et sauvegardes ». La suppression est locale et définitive.
+  « Données & sauvegardes ». La suppression est locale et définitive.
 
 CrohnApp ne conserve pas de copie distante du contenu du carnet à purger. Cette observation ne
 s'applique pas aux informations techniques traitées par l'hébergeur, à la mesure d'audience ou
