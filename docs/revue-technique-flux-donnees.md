@@ -18,6 +18,10 @@ Il répond à une question simple : est-ce que l'application envoie quelque chos
 est écrit pour être lisible sans compétence technique. Le code source reste privé ; une lecture
 peut être accordée sur demande motivée à [crohnapp@gmail.com](mailto:crohnapp@gmail.com).
 
+Ce document publie la méthode, les constats et les limites de la revue. Les relevés détaillés qui
+l'appuient (extraits de code, commandes, journaux de vérification) sont conservés dans le dossier
+technique privé du projet.
+
 ## Ce qui a été cherché
 
 - des outils de mesure d'audience ou de suivi (statistiques, publicité, profilage) ;
